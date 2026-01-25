@@ -1,0 +1,52 @@
+references:
+  - "https://en.wikipedia.org/wiki/Ford_Mondeo"
+
+generations:
+  # First Generation (Mk1) - Platform: CDW27
+  - name: "First Generation"
+    start_year: 1993
+    end_year: 2000
+    description: "First generation Mondeo introduced November 1992, sales began March 1993. Replaced Ford Sierra in Europe and Ford Telstar in Asia. Front-wheel drive with optional four-wheel drive on Mk I only. Three body styles: saloon, liftback, and estate."
+    platform: "CDW27"
+
+  # First Generation Facelift (Mk1.5) - October 1996 facelift
+  - name: "First Generation (Facelift)"
+    start_year: 1996
+    end_year: 2000
+    description: "Mid-cycle facelift launched October 1996. Only the doors, roof, and rear quarter panels on estate remained unchanged from original model."
+    platform: "CDW27"
+
+  # Second Generation (Mk2) - Platform: CDW27
+  - name: "Second Generation"
+    start_year: 2000
+    end_year: 2007
+    description: "Second generation introduced October 2000. Larger than predecessor while maintaining CDW27 platform and suspension design. Abandoned New Edge design theme for Prodigy concept-based styling."
+    platform: "CDW27"
+
+  # Third Generation (Mk3) - Platform: EUCD
+  - name: "Third Generation"
+    start_year: 2007
+    end_year: 2010
+    description: "Third generation introduced late 2006. Based on EUCD platform developed with Volvo, shared with Galaxy and S-MAX MPVs. Design theme from Iosis concept shown at 2005 Frankfurt Motor Show."
+    platform: "EUCD"
+
+  # Third Generation Facelift (Mk3.5) - September 2010 facelift
+  - name: "Third Generation (Facelift)"
+    start_year: 2010
+    end_year: 2012
+    description: "Mid-cycle facelift introduced September 2010. Added new EcoBoost engines, LED daytime running lights, and Kinetic Design front/rear updates with improved interior materials."
+    platform: "EUCD"
+
+  # Fourth Generation (Mk4) - Platform: CD4
+  - name: "Fourth Generation"
+    start_year: 2012
+    end_year: 2022
+    description: "Fourth generation presented at 2012 Detroit Auto Show. Global platform shared with Ford Fusion marketed in Americas. Production ended March 2022 at Valencia plant as buyer interest shifted to crossovers and SUVs."
+    platform: "CD4"
+
+  # Fifth Generation (Mk5) - Platform: C2
+  - name: "Fifth Generation"
+    start_year: 2022
+    end_year: null
+    description: "Fifth generation released in China January 2022. Designed, built, and sold exclusively in China. Not marketed in Europe or North America. Marketed in Middle East as Ford Taurus."
+    platform: "C2"
