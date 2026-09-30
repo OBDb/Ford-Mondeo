@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22F40D
+test_cases:
+- expected_values:
+    MONDEO_VSS: 0
+  response: '7E8 04 62 F4 0D 00 '
+- expected_values:
+    MONDEO_VSS: 30
+  response: '7E8 04 62 F4 0D 1E '
+- expected_values:
+    MONDEO_VSS: 57
+  response: '7E8 04 62 F4 0D 39 '
+- expected_values:
+    MONDEO_VSS: 0
+  response: 7E80462F40D00
+- expected_values:
+    MONDEO_VSS: 92
+  response: 7E80462F40D5C
+- expected_values:
+    MONDEO_VSS: 0
+  response: "SEARCHING...\n7E8 04 62 F4 0D 00 "

@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22038E
+test_cases:
+- expected_values:
+    MONDEO_EVAP_RAW: 2672
+  response: '7E8 05 62 03 8E 0A 70 '
+- expected_values:
+    MONDEO_EVAP_RAW: 2677
+  response: '7E8 05 62 03 8E 0A 75 '
+- expected_values:
+    MONDEO_EVAP_RAW: 2837
+  response: '7E8 05 62 03 8E 0B 15 '
+- expected_values:
+    MONDEO_EVAP_RAW: 1691
+  response: 7E80562038E069B
+- expected_values:
+    MONDEO_EVAP_RAW: 2557
+  response: 7E80562038E09FD
+- expected_values:
+    MONDEO_EVAP_RAW: 3328
+  response: 7E80562038E0D00

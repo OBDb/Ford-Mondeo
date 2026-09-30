@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22DD01
+test_cases:
+- expected_values:
+    MONDEO_ODO_7E0: 181971
+  response: 7E80662DD0102C6D3

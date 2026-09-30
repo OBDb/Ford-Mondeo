@@ -1,0 +1,8 @@
+command_id: 726.72E.22402B
+test_cases:
+- expected_values:
+    MONDEO_VEH_BAT_CURRENT: -95
+  response: 72E0462402B20
+- expected_values:
+    MONDEO_VEH_BAT_CURRENT: 64
+  response: 72E0462402BBF

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F40C
+test_cases:
+- expected_values:
+    MONDEO_RPM: 0
+  response: 7E80562F40C0000
+- expected_values:
+    MONDEO_RPM: 1279.25
+  response: 7E80562F40C13FD
+- expected_values:
+    MONDEO_RPM: 2755.75
+  response: 7E80562F40C2B0F

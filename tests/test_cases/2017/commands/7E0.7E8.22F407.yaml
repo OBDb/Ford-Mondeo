@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F407
+test_cases:
+- expected_values:
+    MONDEO_LTFT: -0.78125
+  response: '7E8 04 62 F4 07 7F '
+- expected_values:
+    MONDEO_LTFT: 0.78125
+  response: '7E8 04 62 F4 07 81 '
+- expected_values:
+    MONDEO_LTFT: -3.125
+  response: 7E80462F4077C
+- expected_values:
+    MONDEO_LTFT: 3.90625
+  response: 7E80462F40785

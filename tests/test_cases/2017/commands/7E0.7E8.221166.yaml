@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221166
+test_cases:
+- expected_values:
+    MONDEO_EVAP_PURGE_CMD: 0
+  response: '7E8 05 62 11 66 00 00 '
+- expected_values:
+    MONDEO_EVAP_PURGE_CMD: 62.81738
+  response: '7E8 05 62 11 66 50 68 '
+- expected_values:
+    MONDEO_EVAP_PURGE_CMD: 93.03894
+  response: '7E8 05 62 11 66 77 17 '
+- expected_values:
+    MONDEO_EVAP_PURGE_CMD: 0
+  response: '7E8056211660000'
+- expected_values:
+    MONDEO_EVAP_PURGE_CMD: 14.05029
+  response: 7E80562116611FC
+- expected_values:
+    MONDEO_EVAP_PURGE_CMD: 98.46191
+  response: 7E8056211667E08

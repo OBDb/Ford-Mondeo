@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220353
+test_cases:
+- expected_values:
+    MONDEO_BARO: 10.91287
+  response: 7E805620353012D
+- expected_values:
+    MONDEO_BARO: 13.95832
+  response: '7E8056203530181'

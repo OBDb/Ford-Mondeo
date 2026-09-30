@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22116B
+test_cases:
+- expected_values:
+    MONDEO_IGN_TIM_CYL1: 19.75
+  response: '7E8 05 62 11 6B 00 4F '
+- expected_values:
+    MONDEO_IGN_TIM_CYL1: -10
+  response: '7E8 05 62 11 6B FF D8 '
+- expected_values:
+    MONDEO_IGN_TIM_CYL1: 9.5
+  response: 7E80562116B0026
+- expected_values:
+    MONDEO_IGN_TIM_CYL1: -10
+  response: 7E80562116BFFD8
+- expected_values:
+    MONDEO_IGN_TIM_CYL1: -3
+  response: 7E80562116BFFF4

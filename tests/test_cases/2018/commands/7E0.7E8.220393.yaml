@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220393
+test_cases:
+- expected_values:
+    MONDEO_AC_P: 33.06861
+  response: '7E8056203930072'
+- expected_values:
+    MONDEO_AC_P: 73.67918
+  response: 7E80562039300FE
+- expected_values:
+    MONDEO_AC_P: 74.25933
+  response: '7E8056203930100'
+- expected_values:
+    MONDEO_AC_P: 224.51843
+  response: '7E8056203930306'

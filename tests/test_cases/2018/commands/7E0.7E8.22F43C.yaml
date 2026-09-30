@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F43C
+test_cases:
+- expected_values:
+    MONDEO_CAT_TEMP: 291
+  response: 7E80562F43C0CEE
+- expected_values:
+    MONDEO_CAT_TEMP: 446.4
+  response: 7E80562F43C1300
+- expected_values:
+    MONDEO_CAT_TEMP: 599.9
+  response: 7E80562F43C18FF
+- expected_values:
+    MONDEO_CAT_TEMP: 741
+  response: 7E80562F43C1E82

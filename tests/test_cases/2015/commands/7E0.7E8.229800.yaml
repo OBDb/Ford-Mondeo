@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.229800
+test_cases:
+- expected_values:
+    MONDEO_AC_P_SENS_V: 0.00195
+  response: '7E8056298000002'
+- expected_values:
+    MONDEO_AC_P_SENS_V: 0.99512
+  response: 7E80562980003FB
+- expected_values:
+    MONDEO_AC_P_SENS_V: 1
+  response: '7E8056298000400'

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220707
+test_cases:
+- expected_values:
+    MONDEO_GRILL_SHUT_DC: 99.60784
+  response: '7E8 04 62 07 07 FE '
+- expected_values:
+    MONDEO_GRILL_SHUT_DC: 41.96078
+  response: 7E8046207076B
+- expected_values:
+    MONDEO_GRILL_SHUT_DC: 99.60784
+  response: 7E804620707FE

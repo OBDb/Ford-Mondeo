@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2203BB
+test_cases:
+- expected_values:
+    MONDEO_VCT_EXH_DES: 0
+  response: |-
+    7E8056203BB00000000
+    > 7E4.7EC.22480D
+    CAN ERROR

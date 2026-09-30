@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22033E
+test_cases:
+- expected_values:
+    MONDEO_TIP_ABS: 0
+  response: 7E80562033E0000

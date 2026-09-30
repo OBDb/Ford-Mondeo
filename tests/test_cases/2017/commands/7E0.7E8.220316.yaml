@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220316
+test_cases:
+- expected_values:
+    MONDEO_VCT_INT_DUTY: 0
+  response: '7E8 05 62 03 16 00 00 '
+- expected_values:
+    MONDEO_VCT_INT_DUTY: 0
+  response: '7E8056203160000'
+- expected_values:
+    MONDEO_VCT_INT_DUTY: 38.24158
+  response: 7E80562031630F3
+- expected_values:
+    MONDEO_VCT_INT_DUTY: 79.99878
+  response: '7E8056203166666'

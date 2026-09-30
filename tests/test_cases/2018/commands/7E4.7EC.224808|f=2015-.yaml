@@ -1,0 +1,22 @@
+command_id: 7E4.7EC.224808|f=2015-
+test_cases:
+- expected_values:
+    MONDEO_HVBAT_T_MAX: -9
+    MONDEO_HVBAT_T_MIN: -11
+  response: 7EC0762480829273328
+- expected_values:
+    MONDEO_HVBAT_T_MAX: -8
+    MONDEO_HVBAT_T_MIN: -9
+  response: 7EC076248082A293229
+- expected_values:
+    MONDEO_HVBAT_T_MAX: 9
+    MONDEO_HVBAT_T_MIN: 5
+  response: 7EC076248083B373639
+- expected_values:
+    MONDEO_HVBAT_T_MAX: 19
+    MONDEO_HVBAT_T_MIN: 15
+  response: 7EC0762480845413543
+- expected_values:
+    MONDEO_HVBAT_T_MAX: 19
+    MONDEO_HVBAT_T_MIN: 16
+  response: 7EC0762480845423543

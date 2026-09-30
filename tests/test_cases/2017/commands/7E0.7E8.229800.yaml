@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.229800
+test_cases:
+- expected_values:
+    MONDEO_AC_P_SENS_V: 1.7832
+  response: '7E8 05 62 98 00 07 22 '
+- expected_values:
+    MONDEO_AC_P_SENS_V: 2.10645
+  response: '7E8 05 62 98 00 08 6D '
+- expected_values:
+    MONDEO_AC_P_SENS_V: 2.2041
+  response: '7E8 05 62 98 00 08 D1 '
+- expected_values:
+    MONDEO_AC_P_SENS_V: 1.42676
+  response: 7E80562980005B5
+- expected_values:
+    MONDEO_AC_P_SENS_V: 1.5
+  response: '7E8056298000600'
+- expected_values:
+    MONDEO_AC_P_SENS_V: 1.74902
+  response: 7E80562980006FF
+- expected_values:
+    MONDEO_AC_P_SENS_V: 3.27441
+  response: 7E8056298000D19

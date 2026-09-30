@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2203BA
+test_cases:
+- expected_values:
+    MONDEO_AAT_V: 1.35386
+  response: 7E8056203BA0115
+- expected_values:
+    MONDEO_AAT_V: 1.35875
+  response: 7E8056203BA0116

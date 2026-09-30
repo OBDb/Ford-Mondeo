@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22093C
+test_cases:
+- expected_values:
+    MONDEO_ETC_ANG_ACT: 1.24609
+  response: 7E80562093C027E
+- expected_values:
+    MONDEO_ETC_ANG_ACT: 3.5
+  response: 7E80562093C0700
+- expected_values:
+    MONDEO_ETC_ANG_ACT: 13.99805
+  response: 7E80562093C1BFF
+- expected_values:
+    MONDEO_ETC_ANG_ACT: 30.18164
+  response: 7E80562093C3C5D

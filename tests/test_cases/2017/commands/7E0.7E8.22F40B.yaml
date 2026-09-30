@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F40B
+test_cases:
+- expected_values:
+    MONDEO_MAP: 13.19854
+  response: '7E8 04 62 F4 0B 5B '
+- expected_values:
+    MONDEO_MAP: 13.92374
+  response: '7E8 04 62 F4 0B 60 '
+- expected_values:
+    MONDEO_MAP: 2.90078
+  response: 7E80462F40B14
+- expected_values:
+    MONDEO_MAP: 14.35886
+  response: 7E80462F40B63
