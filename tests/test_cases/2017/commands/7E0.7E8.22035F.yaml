@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22035F
+test_cases:
+- expected_values:
+    MONDEO_RO2_V: 0.61523
+  response: '7E8 05 62 03 5F 02 76 '
+- expected_values:
+    MONDEO_RO2_V: 0.71777
+  response: '7E8 05 62 03 5F 02 DF '
+- expected_values:
+    MONDEO_RO2_V: 0.72754
+  response: '7E8 05 62 03 5F 02 E9 '
+- expected_values:
+    MONDEO_RO2_V: 0.75195
+  response: '7E8 05 62 03 5F 03 02 '
+- expected_values:
+    MONDEO_RO2_V: 0
+  response: 7E80562035F0000
+- expected_values:
+    MONDEO_RO2_V: 0.74707
+  response: 7E80562035F02FD
+- expected_values:
+    MONDEO_RO2_V: 0.75195
+  response: 7E80562035F0302

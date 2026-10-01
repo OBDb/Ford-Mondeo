@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    MONDEO_DIST_DTC_CLR: 64
+  response: '7E8 05 62 F4 31 00 40 '
+- expected_values:
+    MONDEO_DIST_DTC_CLR: 100
+  response: '7E8 05 62 F4 31 00 64 '
+- expected_values:
+    MONDEO_DIST_DTC_CLR: 101
+  response: '7E8 05 62 F4 31 00 65 '
+- expected_values:
+    MONDEO_DIST_DTC_CLR: 0
+  response: 7E80562F4310000
+- expected_values:
+    MONDEO_DIST_DTC_CLR: 255
+  response: 7E80562F43100FF
+- expected_values:
+    MONDEO_DIST_DTC_CLR: 38069
+  response: 7E80562F43194B5

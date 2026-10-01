@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F443
+test_cases:
+- expected_values:
+    MONDEO_ENG_LOAD_ACT: 0
+  response: '7E8 05 62 F4 43 00 00 '
+- expected_values:
+    MONDEO_ENG_LOAD_ACT: 36.86275
+  response: '7E8 05 62 F4 43 00 5E '
+- expected_values:
+    MONDEO_ENG_LOAD_ACT: 54.11765
+  response: '7E8 05 62 F4 43 00 8A '
+- expected_values:
+    MONDEO_ENG_LOAD_ACT: 0
+  response: 7E80562F4430000
+- expected_values:
+    MONDEO_ENG_LOAD_ACT: 68.62745
+  response: 7E80562F44300AF

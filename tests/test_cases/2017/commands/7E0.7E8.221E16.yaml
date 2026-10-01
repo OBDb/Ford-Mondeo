@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221E16
+test_cases:
+- expected_values:
+    MONDEO_AXLE_GEAR_RATIO_MEAS: 0
+  response: '7E8 05 62 1E 16 00 00 '
+- expected_values:
+    MONDEO_AXLE_GEAR_RATIO_MEAS: 2.47461
+  response: '7E8 05 62 1E 16 27 98 '
+- expected_values:
+    MONDEO_AXLE_GEAR_RATIO_MEAS: 3.48975
+  response: '7E8 05 62 1E 16 37 D6 '
+- expected_values:
+    MONDEO_AXLE_GEAR_RATIO_MEAS: 4.59497
+  response: '7E8 05 62 1E 16 49 85 '
+- expected_values:
+    MONDEO_AXLE_GEAR_RATIO_MEAS: 0
+  response: 7E805621E160000
+- expected_values:
+    MONDEO_AXLE_GEAR_RATIO_MEAS: 10
+  response: 7E805621E16FFFF

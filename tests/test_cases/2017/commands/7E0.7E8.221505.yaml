@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221505
+test_cases:
+- expected_values:
+    MONDEO_VSS_HD: 0
+  response: '7E8 05 62 15 05 00 00 '
+- expected_values:
+    MONDEO_VSS_HD: 21.5625
+  response: '7E8 05 62 15 05 0A C8 '
+- expected_values:
+    MONDEO_VSS_HD: 30.09375
+  response: '7E8 05 62 15 05 0F 0C '
+- expected_values:
+    MONDEO_VSS_HD: 57.42188
+  response: '7E8 05 62 15 05 1C B6 '
+- expected_values:
+    MONDEO_VSS_HD: 0
+  response: '7E8056215050000'
+- expected_values:
+    MONDEO_VSS_HD: 1.98438
+  response: 7E80562150500FE
+- expected_values:
+    MONDEO_VSS_HD: 91.38281
+  response: 7E8056215052DB1

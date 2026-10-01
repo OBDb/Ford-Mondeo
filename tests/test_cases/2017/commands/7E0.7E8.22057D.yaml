@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22057D
+test_cases:
+- expected_values:
+    MONDEO_AAT_ALT: 32
+  response: '7E8 04 62 05 7D 90 '
+- expected_values:
+    MONDEO_AAT_ALT: 37
+  response: '7E8 04 62 05 7D 9A '
+- expected_values:
+    MONDEO_AAT_ALT: 40
+  response: '7E8 04 62 05 7D A0 '
+- expected_values:
+    MONDEO_AAT_ALT: 22
+  response: 7E80462057D7C
+- expected_values:
+    MONDEO_AAT_ALT: 44
+  response: 7E80462057DA8

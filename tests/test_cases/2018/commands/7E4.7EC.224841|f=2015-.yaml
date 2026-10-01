@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.224841|f=2015-
+test_cases:
+- expected_values:
+    MONDEO_AVG_BAT_MODULE_V: 3.339
+  response: 7EC056248410D0B
+- expected_values:
+    MONDEO_AVG_BAT_MODULE_V: 3.584
+  response: 7EC056248410E00
+- expected_values:
+    MONDEO_AVG_BAT_MODULE_V: 3.839
+  response: 7EC056248410EFF
+- expected_values:
+    MONDEO_AVG_BAT_MODULE_V: 4.101
+  response: 7EC056248411005

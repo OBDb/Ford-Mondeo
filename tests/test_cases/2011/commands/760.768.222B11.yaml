@@ -1,0 +1,17 @@
+command_id: 760.768.222B11
+test_cases:
+- expected_values:
+    MONDEO_LAT_G: -1
+  response: 76805622B11FF8C
+- expected_values:
+    MONDEO_LAT_G: -1
+  response: 76805622B11FF8F
+- expected_values:
+    MONDEO_LAT_G: -1
+  response: 76805622B11FF90
+- expected_values:
+    MONDEO_LAT_G: -1
+  response: 76805622B11FF91
+- expected_values:
+    MONDEO_LAT_G: -1
+  response: 76805622B11FF96

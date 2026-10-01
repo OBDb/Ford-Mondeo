@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2203DC
+test_cases:
+- expected_values:
+    MONDEO_HPFP_DES: 1510
+  response: |-
+    7E8056203DC00970000
+    > 7E0.220393
+    > 7E0.220353
+    7E80562035301760000
+    > 7E4.7EC.22484F
+    CAN ERROR

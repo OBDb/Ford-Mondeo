@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.220404
+test_cases:
+- expected_values:
+    MONDEO_KS2_RAW: 0
+  response: '7E8 05 62 04 04 00 00 '
+- expected_values:
+    MONDEO_KS2_RAW: 221
+  response: '7E8 05 62 04 04 00 DD '
+- expected_values:
+    MONDEO_KS2_RAW: 0
+  response: '7E8056204040000'
+- expected_values:
+    MONDEO_KS2_RAW: 243
+  response: 7E80562040400F3
+- expected_values:
+    MONDEO_KS2_RAW: 266
+  response: 7E805620404010A

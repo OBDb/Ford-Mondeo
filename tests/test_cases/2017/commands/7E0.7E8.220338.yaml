@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.220338
+test_cases:
+- expected_values:
+    MONDEO_ETC_TRIM_LRN: 0.18555
+  response: '7E8 05 62 03 38 00 5F '
+- expected_values:
+    MONDEO_ETC_TRIM_LRN: 0.84766
+  response: '7E8 05 62 03 38 01 B2 '
+- expected_values:
+    MONDEO_ETC_TRIM_LRN: 0.10352
+  response: '7E8056203380035'
+- expected_values:
+    MONDEO_ETC_TRIM_LRN: 0.49219
+  response: 7E80562033800FC
+- expected_values:
+    MONDEO_ETC_TRIM_LRN: 1.01367
+  response: '7E8056203380207'

@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.22483F|f=2015-
+test_cases:
+- expected_values:
+    MONDEO_BAT_V_VARIATION_BAT: 0.004
+  response: 7EC0562483F0004
+- expected_values:
+    MONDEO_BAT_V_VARIATION_BAT: 0.079
+  response: 7EC0562483F004F

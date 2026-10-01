@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.220700
+test_cases:
+- expected_values:
+    MONDEO_IAT_FAULT: 0
+  response: '7E80762070000800000'
+- expected_values:
+    MONDEO_IAT_FAULT: 0
+  response: '7E80762070000800800'
+- expected_values:
+    MONDEO_IAT_FAULT: 1
+  response: '7E80762070001800000'
+- expected_values:
+    MONDEO_IAT_FAULT: 2
+  response: '7E80762070002800000'
+- expected_values:
+    MONDEO_IAT_FAULT: 4
+  response: '7E80762070004800000'
+- expected_values:
+    MONDEO_IAT_FAULT: 4
+  response: '7E80762070004800800'
+- expected_values:
+    MONDEO_IAT_FAULT: 5
+  response: '7E80762070005800800'
+- expected_values:
+    MONDEO_IAT_FAULT: 8
+  response: '7E80762070008800000'
+- expected_values:
+    MONDEO_IAT_FAULT: 13
+  response: 7E8076207000D800000

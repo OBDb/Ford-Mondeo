@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22DD01
+test_cases:
+- expected_values:
+    MONDEO_ODO_7E0: 71754
+  response: 7E80662DD0101184A
+- expected_values:
+    MONDEO_ODO_7E0: 71935
+  response: 7E80662DD010118FF
+- expected_values:
+    MONDEO_ODO_7E0: 71936
+  response: 7E80662DD01011900
+- expected_values:
+    MONDEO_ODO_7E0: 76804
+  response: 7E80662DD01012C04

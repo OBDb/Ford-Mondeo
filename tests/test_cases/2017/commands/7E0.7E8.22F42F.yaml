@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22F42F
+test_cases:
+- expected_values:
+    MONDEO_FLI_7E0: 62.7451
+  response: '7E8 04 62 F4 2F A0 '
+- expected_values:
+    MONDEO_FLI_7E0: 65.09804
+  response: '7E8 04 62 F4 2F A6 '
+- expected_values:
+    MONDEO_FLI_7E0: 68.23529
+  response: '7E8 04 62 F4 2F AE '
+- expected_values:
+    MONDEO_FLI_7E0: 97.64706
+  response: '7E8 04 62 F4 2F F9 '
+- expected_values:
+    MONDEO_FLI_7E0: 16.47059
+  response: 7E80462F42F2A
+- expected_values:
+    MONDEO_FLI_7E0: 98.03922
+  response: 7E80462F42FFA

@@ -1,0 +1,28 @@
+command_id: 7E0.7E8.22DD01
+test_cases:
+- expected_values:
+    MONDEO_ODO_7E0: 157459
+  response: '7E8 06 62 DD 01 02 67 13 '
+- expected_values:
+    MONDEO_ODO_7E0: 157914
+  response: '7E8 06 62 DD 01 02 68 DA '
+- expected_values:
+    MONDEO_ODO_7E0: 157917
+  response: '7E8 06 62 DD 01 02 68 DD '
+- expected_values:
+    MONDEO_ODO_7E0: 157427
+  response: 7E80662DD010266F3
+- expected_values:
+    MONDEO_ODO_7E0: 157444
+  response: 7E80662DD01026704
+- expected_values:
+    MONDEO_ODO_7E0: 157693
+  response: 7E80662DD010267FD
+- expected_values:
+    MONDEO_ODO_7E0: 159841
+  response: 7E80662DD01027061
+- expected_values:
+    MONDEO_ODO_7E0: 157461
+  response: |-
+    SEARCHING...
+    7E80662DD01026715

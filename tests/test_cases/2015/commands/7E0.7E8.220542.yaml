@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220542
+test_cases:
+- expected_values:
+    MONDEO_DIST_SINCE_OIL: 7954
+  response: 7E8056205421F12
+- expected_values:
+    MONDEO_DIST_SINCE_OIL: 8132
+  response: 7E8056205421FC4

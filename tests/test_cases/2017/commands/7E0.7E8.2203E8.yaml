@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.2203E8
+test_cases:
+- expected_values:
+    MONDEO_OAR: 0
+  response: '7E8 05 62 03 E8 E8 D3 '
+- expected_values:
+    MONDEO_OAR: 0
+  response: '7E8 05 62 03 E8 EF D5 '
+- expected_values:
+    MONDEO_OAR: 0
+  response: 7E8056203E8E06C
+- expected_values:
+    MONDEO_OAR: 0
+  response: 7E8056203E8E8D3
+- expected_values:
+    MONDEO_OAR: 0
+  response: 7E8056203E8EAA0
+- expected_values:
+    MONDEO_OAR: 0
+  response: 7E8056203E8EFD5
+- expected_values:
+    MONDEO_OAR: 0
+  response: 7E8056203E8F3A5
+- expected_values:
+    MONDEO_OAR: 0
+  response: 7E8056203E8F7F4
+- expected_values:
+    MONDEO_OAR: 0
+  response: 7E8056203E8F8E2
+- expected_values:
+    MONDEO_OAR: 0
+  response: 7E8056203E8FA5E

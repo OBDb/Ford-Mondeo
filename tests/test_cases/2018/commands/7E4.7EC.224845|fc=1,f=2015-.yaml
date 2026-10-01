@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.224845|fc=1,f=2015-
+test_cases:
+- expected_values:
+    MONDEO_HVBAT_SOC_DISP: 18
+  response: 7EC0462484524
+- expected_values:
+    MONDEO_HVBAT_SOC_DISP: 100
+  response: 7EC04624845C8

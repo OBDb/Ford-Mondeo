@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22093C
+test_cases:
+- expected_values:
+    MONDEO_ETC_ANG_ACT: 2.20703
+  response: '7E8 05 62 09 3C 04 6A '
+- expected_values:
+    MONDEO_ETC_ANG_ACT: 2.54688
+  response: '7E8 05 62 09 3C 05 18 '
+- expected_values:
+    MONDEO_ETC_ANG_ACT: 7.84375
+  response: '7E8 05 62 09 3C 0F B0 '
+- expected_values:
+    MONDEO_ETC_ANG_ACT: 7.87305
+  response: '7E8 05 62 09 3C 0F BF '
+- expected_values:
+    MONDEO_ETC_ANG_ACT: 7.90039
+  response: '7E8 05 62 09 3C 0F CD '
+- expected_values:
+    MONDEO_ETC_ANG_ACT: 9.72852
+  response: '7E8 05 62 09 3C 13 75 '
+- expected_values:
+    MONDEO_ETC_ANG_ACT: 1.06055
+  response: 7E80562093C021F
+- expected_values:
+    MONDEO_ETC_ANG_ACT: 2.00195
+  response: 7E80562093C0401
+- expected_values:
+    MONDEO_ETC_ANG_ACT: 7.49805
+  response: 7E80562093C0EFF
+- expected_values:
+    MONDEO_ETC_ANG_ACT: 52.29688
+  response: 7E80562093C6898

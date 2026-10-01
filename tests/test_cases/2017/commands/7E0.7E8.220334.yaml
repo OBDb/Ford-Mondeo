@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.220334
+test_cases:
+- expected_values:
+    MONDEO_PCM_CYL_HEAD_T_CORR: 89.125
+  response: '7E8 05 62 03 34 16 48 '
+- expected_values:
+    MONDEO_PCM_CYL_HEAD_T_CORR: 90
+  response: '7E8 05 62 03 34 16 80 '
+- expected_values:
+    MONDEO_PCM_CYL_HEAD_T_CORR: 90.89062
+  response: '7E8 05 62 03 34 16 B9 '
+- expected_values:
+    MONDEO_PCM_CYL_HEAD_T_CORR: 92.07812
+  response: '7E8 05 62 03 34 17 05 '
+- expected_values:
+    MONDEO_PCM_CYL_HEAD_T_CORR: 31.78125
+  response: 7E80562033407F2
+- expected_values:
+    MONDEO_PCM_CYL_HEAD_T_CORR: 83.98438
+  response: 7E80562033414FF
+- expected_values:
+    MONDEO_PCM_CYL_HEAD_T_CORR: 92.03125
+  response: '7E8056203341702'

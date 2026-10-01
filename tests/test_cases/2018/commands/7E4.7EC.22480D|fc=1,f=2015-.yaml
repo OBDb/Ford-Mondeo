@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.22480D|fc=1,f=2015-
+test_cases:
+- expected_values:
+    MONDEO_HVBAT_V: 252.38
+  response: 7EC0562480D6296
+- expected_values:
+    MONDEO_HVBAT_V: 273.9
+  response: 7EC0562480D6AFE
+- expected_values:
+    MONDEO_HVBAT_V: 302.08
+  response: 7EC0562480D7600
+- expected_values:
+    MONDEO_HVBAT_V: 317.81
+  response: 7EC0562480D7C25

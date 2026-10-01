@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221126
+test_cases:
+- expected_values:
+    MONDEO_ERT: 0
+  response: '7E8 04 62 11 26 00 '
+- expected_values:
+    MONDEO_ERT: 1
+  response: '7E8 04 62 11 26 01 '
+- expected_values:
+    MONDEO_ERT: 0
+  response: '7E80462112600'
+- expected_values:
+    MONDEO_ERT: 206
+  response: 7E804621126CE
