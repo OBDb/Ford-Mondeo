@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     MONDEO_TP_RR: 38.5
   response: '72E056228150302'
+- expected_values:
+    MONDEO_TP_RR: null
+  response: 72E056228150BB8
