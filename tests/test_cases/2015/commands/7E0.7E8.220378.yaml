@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220378
+test_cases:
+- expected_values:
+    MONDEO_GEN_CTRL: 0
+  response: '7E8056203780000'
+- expected_values:
+    MONDEO_GEN_CTRL: 22.64889
+  response: 7E8056203781CFD
+- expected_values:
+    MONDEO_GEN_CTRL: 59.53231
+  response: 7E8056203784C32

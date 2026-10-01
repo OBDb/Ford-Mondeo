@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22035A
+test_cases:
+- expected_values:
+    MONDEO_BARO_V: 3.50929
+  response: |-
+    7E80562035A02CE0000
+    > 7DF.221E1C
+    7E805621E1C04A40000
+    7E805621E1C04DE0000
+    > 7DF.221310
+    CAN ERROR

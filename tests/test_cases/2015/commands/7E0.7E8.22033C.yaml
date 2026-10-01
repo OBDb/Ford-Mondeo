@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22033C
+test_cases:
+- expected_values:
+    MONDEO_TIP_V: 0.3125
+  response: 7E80562033C0040
+- expected_values:
+    MONDEO_TIP_V: 1.24512
+  response: 7E80562033C00FF
+- expected_values:
+    MONDEO_TIP_V: 1.25
+  response: 7E80562033C0100
+- expected_values:
+    MONDEO_TIP_V: 3.76465
+  response: 7E80562033C0303

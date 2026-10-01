@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22038A
+test_cases:
+- expected_values:
+    MONDEO_PCM_MISF_ACCEL_CYL3_NORM: 0
+  response: '7E8 04 62 03 8A 00 '
+- expected_values:
+    MONDEO_PCM_MISF_ACCEL_CYL3_NORM: -0.23438
+  response: '7E8 04 62 03 8A F1 '
+- expected_values:
+    MONDEO_PCM_MISF_ACCEL_CYL3_NORM: -0.17188
+  response: '7E8 04 62 03 8A F5 '
+- expected_values:
+    MONDEO_PCM_MISF_ACCEL_CYL3_NORM: 0
+  response: 7E80462038A00
+- expected_values:
+    MONDEO_PCM_MISF_ACCEL_CYL3_NORM: -0.01562
+  response: 7E80462038AFF

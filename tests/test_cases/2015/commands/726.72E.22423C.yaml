@@ -1,0 +1,14 @@
+command_id: 726.72E.22423C
+test_cases:
+- expected_values:
+    MONDEO_VEH_BAT_B_CURRENT: 1.0625
+  response: 72E0562423C0022
+- expected_values:
+    MONDEO_VEH_BAT_B_CURRENT: 7.8125
+  response: 72E0562423C00FA
+- expected_values:
+    MONDEO_VEH_BAT_B_CURRENT: 8.1875
+  response: 72E0562423C0106
+- expected_values:
+    MONDEO_VEH_BAT_B_CURRENT: -7.1875
+  response: 72E0562423CFF1A

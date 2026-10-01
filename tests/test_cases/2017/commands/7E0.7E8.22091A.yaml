@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22091A
+test_cases:
+- expected_values:
+    MONDEO_ETC_ANG_DES: 3.1543
+  response: '7E8 05 62 09 1A 06 4F '
+- expected_values:
+    MONDEO_ETC_ANG_DES: 8
+  response: '7E8 05 62 09 1A 10 00 '
+- expected_values:
+    MONDEO_ETC_ANG_DES: 29.58594
+  response: '7E8 05 62 09 1A 3B 2C '
+- expected_values:
+    MONDEO_ETC_ANG_DES: 1.09961
+  response: 7E80562091A0233
+- expected_values:
+    MONDEO_ETC_ANG_DES: 2.99023
+  response: 7E80562091A05FB
+- expected_values:
+    MONDEO_ETC_ANG_DES: 8
+  response: 7E80562091A1000
+- expected_values:
+    MONDEO_ETC_ANG_DES: 40
+  response: 7E80562091A5000

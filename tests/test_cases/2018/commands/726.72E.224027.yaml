@@ -1,0 +1,8 @@
+command_id: 726.72E.224027
+test_cases:
+- expected_values:
+    MONDEO_12V_AGE: 0
+  response: '72E056240270000'
+- expected_values:
+    MONDEO_12V_AGE: 3120
+  response: '72E056240270082'

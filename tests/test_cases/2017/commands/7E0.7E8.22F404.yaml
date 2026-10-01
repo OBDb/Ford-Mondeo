@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F404
+test_cases:
+- expected_values:
+    MONDEO_ENG_LOAD_PCT: 0
+  response: '7E8 04 62 F4 04 00 '
+- expected_values:
+    MONDEO_ENG_LOAD_PCT: 40
+  response: '7E8 04 62 F4 04 66 '
+- expected_values:
+    MONDEO_ENG_LOAD_PCT: 0
+  response: 7E80462F40400
+- expected_values:
+    MONDEO_ENG_LOAD_PCT: 99.60784
+  response: 7E80462F404FE

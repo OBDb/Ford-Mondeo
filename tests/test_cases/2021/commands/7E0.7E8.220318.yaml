@@ -1,0 +1,9 @@
+command_id: 7E0.7E8.220318
+test_cases:
+- expected_values:
+    MONDEO_VCT_INT_ACT: 0.125
+  response: |-
+    7E80562031800010000
+    7E80562031800020000
+    > 7E4.7EC.22490C
+    CAN ERROR

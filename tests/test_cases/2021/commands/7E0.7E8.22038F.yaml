@@ -1,0 +1,9 @@
+command_id: 7E0.7E8.22038F
+test_cases:
+- expected_values:
+    MONDEO_ECT: 84.57812
+  response: |-
+    7E80562038F14CC0000
+    7E80562038F15250000
+    > 720.728.22404C
+    CAN ERROR

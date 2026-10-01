@@ -1,0 +1,9 @@
+command_id: 726.72E.22C150
+test_cases:
+- expected_values:
+    MONDEO_DRIVER_DOOR_OPEN: 0
+    MONDEO_PASSENGER_DOOR_OPEN: 0
+    MONDEO_RLD_OPEN: 0
+    MONDEO_RRD_OPEN: 0
+    MONDEO_TRUNK_OPEN: 0
+  response: 72E0762C150C0020000

@@ -1,0 +1,9 @@
+command_id: 7E0.7E8.2203CA
+test_cases:
+- expected_values:
+    MONDEO_MCT: 95
+  response: |-
+    7E8046203CA5D000000
+    7E8046203CA5F000000
+    > 726.72E.222814
+    CAN ERROR

@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2203BC
+test_cases:
+- expected_values:
+    MONDEO_VCT_INT_DES: 0
+  response: '7E8 05 62 03 BC 00 00 '
+- expected_values:
+    MONDEO_VCT_INT_DES: -34.9375
+  response: '7E8 05 62 03 BC FD D1 '
+- expected_values:
+    MONDEO_VCT_INT_DES: -14.25
+  response: '7E8 05 62 03 BC FF 1C '
+- expected_values:
+    MONDEO_VCT_INT_DES: 0
+  response: 7E8056203BC0000
+- expected_values:
+    MONDEO_VCT_INT_DES: -32.1875
+  response: 7E8056203BCFDFD
+- expected_values:
+    MONDEO_VCT_INT_DES: -14.625
+  response: 7E8056203BCFF16

@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22F43C
+test_cases:
+- expected_values:
+    MONDEO_CAT_TEMP: 546.9
+  response: '7E8 05 62 F4 3C 16 ED '
+- expected_values:
+    MONDEO_CAT_TEMP: 572.9
+  response: '7E8 05 62 F4 3C 17 F1 '
+- expected_values:
+    MONDEO_CAT_TEMP: 604.1
+  response: '7E8 05 62 F4 3C 19 29 '
+- expected_values:
+    MONDEO_CAT_TEMP: 609.6
+  response: '7E8 05 62 F4 3C 19 60 '
+- expected_values:
+    MONDEO_CAT_TEMP: 642
+  response: '7E8 05 62 F4 3C 1A A4 '
+- expected_values:
+    MONDEO_CAT_TEMP: 31
+  response: 7E80562F43C02C6
+- expected_values:
+    MONDEO_CAT_TEMP: 625.5
+  response: 7E80562F43C19FF
+- expected_values:
+    MONDEO_CAT_TEMP: 676.8
+  response: 7E80562F43C1C00
+- expected_values:
+    MONDEO_CAT_TEMP: 758.6
+  response: 7E80562F43C1F32

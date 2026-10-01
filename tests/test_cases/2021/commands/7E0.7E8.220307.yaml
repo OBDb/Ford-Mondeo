@@ -1,0 +1,9 @@
+command_id: 7E0.7E8.220307
+test_cases:
+- expected_values:
+    MONDEO_LPFP_DUTY: 36.83777
+  response: |-
+    7E8056203072B1D0000
+    7E8056203072F270000
+    > 726.72E.222817
+    CAN ERROR

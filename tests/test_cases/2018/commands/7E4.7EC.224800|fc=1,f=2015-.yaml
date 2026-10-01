@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.224800|fc=1,f=2015-
+test_cases:
+- expected_values:
+    MONDEO_HVBAT_T: -11
+  response: 7EC0462480027
+- expected_values:
+    MONDEO_HVBAT_T: 38
+  response: 7EC0462480058

@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.220304
+test_cases:
+- expected_values:
+    MONDEO_CMD_GEN_V: 11.97308
+  response: 7E8056203045FD7
+- expected_values:
+    MONDEO_CMD_GEN_V: 14.1115
+  response: 7E80562030470F5
+- expected_values:
+    MONDEO_CMD_GEN_V: 14.15151
+  response: '7E8056203047147'
+- expected_values:
+    MONDEO_CMD_GEN_V: 14.17152
+  response: '7E8056203047170'
+- expected_values:
+    MONDEO_CMD_GEN_V: 14.21154
+  response: 7E80562030471C2
+- expected_values:
+    MONDEO_CMD_GEN_V: 14.23154
+  response: 7E80562030471EB
+- expected_values:
+    MONDEO_CMD_GEN_V: 14.25155
+  response: '7E8056203047214'
+- expected_values:
+    MONDEO_CMD_GEN_V: 14.27156
+  response: 7E805620304723D
+- expected_values:
+    MONDEO_CMD_GEN_V: 14.29157
+  response: '7E8056203047266'
+- expected_values:
+    MONDEO_CMD_GEN_V: 14.31158
+  response: 7E805620304728F
