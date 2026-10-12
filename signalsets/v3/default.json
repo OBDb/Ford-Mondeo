@@ -147,31 +147,31 @@
   "signals": [
     {"id": "MONDEO_PARKING_BRAKE", "path": "Control", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake state"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "2B06"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B06"}, "freq": 0.25, "filter": { "to": 2012, "from": 2022 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "MONDEO_FR_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "2B07"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B07"}, "freq": 0.25, "filter": { "to": 2012, "from": 2022 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "MONDEO_FL_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "2B08"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B08"}, "freq": 0.25, "filter": { "to": 2012, "from": 2022 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "MONDEO_RR_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "2B09"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B09"}, "freq": 0.25, "filter": { "to": 2012, "from": 2022 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "MONDEO_RL_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "2B0C"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B0C"}, "freq": 0.25, "filter": { "to": 2012, "from": 2022 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "MONDEO_LAT_ANG", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Lateral angle, raw count"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "2B0D"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B0D"}, "freq": 0.25, "filter": { "to": 2012, "from": 2022 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "MONDEO_BRK_FL_P", "path": "Control", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Brake hydraulic pressure, raw count"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "2B11"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B11"}, "freq": 0.25, "filter": { "to": 2012, "from": 2022 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "MONDEO_LAT_G", "path": "Movement", "fmt": { "len": 16, "max": 1, "min": -1, "div": 50, "sign": true, "unit": "scalar" }, "name": "Lateral acceleration"}
   ]},

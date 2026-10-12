@@ -1,4 +1,4 @@
-command_id: 760.768.222B0C
+command_id: 760.768.222B0C|f=2022-;-2012
 test_cases:
 - expected_values:
     MONDEO_LAT_ANG: 0
