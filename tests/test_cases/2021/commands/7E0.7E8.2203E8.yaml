@@ -1,7 +1,7 @@
 command_id: 7E0.7E8.2203E8
 test_cases:
 - expected_values:
-    MONDEO_OAR: 0
+    MONDEO_OAR: -0.96021
   response: |-
     7E8056203E8C28C0000
     > 7E0.7E8.22F42F

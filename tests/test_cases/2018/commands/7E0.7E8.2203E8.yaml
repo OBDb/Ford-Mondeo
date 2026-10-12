@@ -4,8 +4,8 @@ test_cases:
     MONDEO_OAR: 0
   response: 7E8056203E80000
 - expected_values:
-    MONDEO_OAR: 0
+    MONDEO_OAR: -0.34503
   response: 7E8056203E8E9EB
 - expected_values:
-    MONDEO_OAR: 0
+    MONDEO_OAR: -0.10754
   response: 7E8056203E8F91E
