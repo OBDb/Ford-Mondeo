@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22051C
+test_cases:
+- expected_values:
+    MONDEO_CHG_AIR_T: 10
+  response: 7E80462051C32
+- expected_values:
+    MONDEO_CHG_AIR_T: 74
+  response: 7E80462051C72

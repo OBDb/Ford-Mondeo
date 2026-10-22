@@ -9,3 +9,18 @@ test_cases:
 - expected_values:
     MONDEO_PCM_ENG_OIL_LIFE_REM: 64
   response: 7E80462054B40
+- expected_values:
+    MONDEO_PCM_ENG_OIL_LIFE_REM: 80
+  response: 7E80462054B50
+- expected_values:
+    MONDEO_PCM_ENG_OIL_LIFE_REM: 82
+  response: 7E80462054B52
+- expected_values:
+    MONDEO_PCM_ENG_OIL_LIFE_REM: 85
+  response: 7E80462054B55
+- expected_values:
+    MONDEO_PCM_ENG_OIL_LIFE_REM: 88
+  response: 7E80462054B58
+- expected_values:
+    MONDEO_PCM_ENG_OIL_LIFE_REM: 91
+  response: 7E80462054B5B

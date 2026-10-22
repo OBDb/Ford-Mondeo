@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2205FC
+test_cases:
+- expected_values:
+    MONDEO_PCM_CYL_HEAD_T_SENS_2_RAW: 0.67188
+  response: 7E8056205FC002B
+- expected_values:
+    MONDEO_PCM_CYL_HEAD_T_SENS_2_RAW: 7.96875
+  response: 7E8056205FC01FE
+- expected_values:
+    MONDEO_PCM_CYL_HEAD_T_SENS_2_RAW: 12.0625
+  response: 7E8056205FC0304
+- expected_values:
+    MONDEO_PCM_CYL_HEAD_T_SENS_2_RAW: -1.32812
+  response: 7E8056205FCFFAB

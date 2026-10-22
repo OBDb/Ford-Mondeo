@@ -7,5 +7,5 @@ test_cases:
     MONDEO_WGDC: 37.49695
   response: 7E8056204622FFF
 - expected_values:
-    MONDEO_WGDC: 99.22791
-  response: 7E8056204627F03
+    MONDEO_WGDC: 100
+  response: '7E8056204628000'

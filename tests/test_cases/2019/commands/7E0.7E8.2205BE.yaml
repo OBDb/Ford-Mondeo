@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2205BE
+test_cases:
+- expected_values:
+    MONDEO_TURBO_INLET_P: 0
+  response: 7E8056205BE0000

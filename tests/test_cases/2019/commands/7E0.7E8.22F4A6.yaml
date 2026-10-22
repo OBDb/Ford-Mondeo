@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22F4A6
+test_cases:
+- expected_values:
+    MONDEO_PCM_VEH_ODO: 144410.7
+  response: 7E80762F4A60016090B
+- expected_values:
+    MONDEO_PCM_VEH_ODO: 144639.9
+  response: 7E80762F4A6001611FF
+- expected_values:
+    MONDEO_PCM_VEH_ODO: 144716.8
+  response: 7E80762F4A600161500
+- expected_values:
+    MONDEO_PCM_VEH_ODO: 150708
+  response: 7E80762F4A60016FF08
+- expected_values:
+    MONDEO_PCM_VEH_ODO: 150733.1
+  response: 7E80762F4A600170003
+- expected_values:
+    MONDEO_PCM_VEH_ODO: 163850.4
+  response: 7E80762F4A600190068
