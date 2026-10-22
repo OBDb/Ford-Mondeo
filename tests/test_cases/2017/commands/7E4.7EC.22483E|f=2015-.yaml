@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.22483E|f=2015-
+test_cases:
+- expected_values:
+    MONDEO_BATT_SOC: 0.731
+  response: 7EC0562483E02DB

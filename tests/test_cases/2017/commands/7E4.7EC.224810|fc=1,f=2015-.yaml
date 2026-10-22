@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.224810|fc=1,f=2015-
+test_cases:
+- expected_values:
+    MONDEO_HVBAT_AGE: 54190.8
+  response: 7EC056248103ACD

@@ -1,0 +1,23 @@
+command_id: 7E4.7EC.22DD04|f=2015-
+test_cases:
+- expected_values:
+    MONDEO_T_INSIDE_CAR: 68
+  response: 7EC0462DD043C
+- expected_values:
+    MONDEO_T_INSIDE_CAR: 69.8
+  response: 7EC0462DD043D
+- expected_values:
+    MONDEO_T_INSIDE_CAR: 71.6
+  response: 7EC0462DD043E
+- expected_values:
+    MONDEO_T_INSIDE_CAR: 73.4
+  response: 7EC0462DD043F
+- expected_values:
+    MONDEO_T_INSIDE_CAR: 75.2
+  response: 7EC0462DD0440
+- expected_values:
+    MONDEO_T_INSIDE_CAR: 77
+  response: 7EC0462DD0441
+- expected_values:
+    MONDEO_T_INSIDE_CAR: 78.8
+  response: 7EC0462DD0442
