@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.224840|f=2015-
+test_cases:
+- expected_values:
+    MONDEO_BATT_MIN_BATT_V: 3.507
+  response: 7EC056248400DB3
+- expected_values:
+    MONDEO_BATT_MIN_BATT_V: 3.567
+  response: 7EC056248400DEF
+- expected_values:
+    MONDEO_BATT_MIN_BATT_V: 3.598
+  response: 7EC056248400E0E
+- expected_values:
+    MONDEO_BATT_MIN_BATT_V: 3.927
+  response: 7EC056248400F57

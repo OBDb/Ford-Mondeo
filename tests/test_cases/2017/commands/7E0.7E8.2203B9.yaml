@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2203B9
+test_cases:
+- expected_values:
+    MONDEO_FAN_SPD_DES: 7.99878
+  response: 7E8056203B90A3D
+- expected_values:
+    MONDEO_FAN_SPD_DES: 11.48699
+  response: 7E8056203B90EB4
+- expected_values:
+    MONDEO_FAN_SPD_DES: 11.49615
+  response: 7E8056203B90EB7
+- expected_values:
+    MONDEO_FAN_SPD_DES: 16.17151
+  response: 7E8056203B914B3

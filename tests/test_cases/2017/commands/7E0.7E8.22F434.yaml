@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F434
+test_cases:
+- expected_values:
+    MONDEO_AIR_FUEL_RAT: 12.03197
+  response: 7E80762F43469327EEA
+- expected_values:
+    MONDEO_AIR_FUEL_RAT: 13.27359
+  response: 7E80762F434740D7F94
+- expected_values:
+    MONDEO_AIR_FUEL_RAT: 14.62244
+  response: 7E80762F4347FD87FFC
+- expected_values:
+    MONDEO_AIR_FUEL_RAT: 15.09738
+  response: 7E80762F43483FF800C
+- expected_values:
+    MONDEO_AIR_FUEL_RAT: 29.2801
+  response: 7E80762F434FFFF8150

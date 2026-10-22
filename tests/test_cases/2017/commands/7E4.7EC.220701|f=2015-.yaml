@@ -1,0 +1,23 @@
+command_id: 7E4.7EC.220701|f=2015-
+test_cases:
+- expected_values:
+    MONDEO_FAN_SPD_DEMANDED: 0
+  response: 7EC0462070100
+- expected_values:
+    MONDEO_FAN_SPD_DEMANDED: 1000
+  response: 7EC0462070128
+- expected_values:
+    MONDEO_FAN_SPD_DEMANDED: 1200
+  response: 7EC0462070130
+- expected_values:
+    MONDEO_FAN_SPD_DEMANDED: 1225
+  response: 7EC0462070131
+- expected_values:
+    MONDEO_FAN_SPD_DEMANDED: 1275
+  response: 7EC0462070133
+- expected_values:
+    MONDEO_FAN_SPD_DEMANDED: 1300
+  response: 7EC0462070134
+- expected_values:
+    MONDEO_FAN_SPD_DEMANDED: 1600
+  response: 7EC0462070140
