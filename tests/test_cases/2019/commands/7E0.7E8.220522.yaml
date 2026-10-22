@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220522
+test_cases:
+- expected_values:
+    MONDEO_FUEL_T: 8
+  response: '7E80462052230'
+- expected_values:
+    MONDEO_FUEL_T: 60
+  response: '7E80462052264'

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22041F
+test_cases:
+- expected_values:
+    MONDEO_LPFP_DES: 47.415
+  response: 7E80462041F6D
+- expected_values:
+    MONDEO_LPFP_DES: 64.815
+  response: 7E80462041F95

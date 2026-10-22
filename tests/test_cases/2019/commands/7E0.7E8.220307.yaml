@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220307
+test_cases:
+- expected_values:
+    MONDEO_LPFP_DUTY: 53.35693
+  response: 7E805620307444C
+- expected_values:
+    MONDEO_LPFP_DUTY: 59.375
+  response: 7E8056203074C00
+- expected_values:
+    MONDEO_LPFP_DUTY: 62.49695
+  response: 7E8056203074FFF
+- expected_values:
+    MONDEO_LPFP_DUTY: 97.98584
+  response: 7E8056203077D6C

@@ -1,0 +1,11 @@
+command_id: 726.72E.224026
+test_cases:
+- expected_values:
+    MONDEO_NORM_CUM_DCHG_BAT_OFF: 0
+  response: '72E056240260000'
+- expected_values:
+    MONDEO_NORM_CUM_DCHG_BAT_OFF: 26.2
+  response: '72E056240260106'
+- expected_values:
+    MONDEO_NORM_CUM_DCHG_BAT_OFF: 27.8
+  response: '72E056240260116'

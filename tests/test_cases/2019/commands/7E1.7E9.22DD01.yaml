@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22DD01
+test_cases:
+- expected_values:
+    MONDEO_TRANS_ODO: 167571
+  response: 7E90662DD01028E93
+- expected_values:
+    MONDEO_TRANS_ODO: 167679
+  response: 7E90662DD01028EFF
+- expected_values:
+    MONDEO_TRANS_ODO: 167680
+  response: 7E90662DD01028F00
+- expected_values:
+    MONDEO_TRANS_ODO: 169472
+  response: 7E90662DD01029600

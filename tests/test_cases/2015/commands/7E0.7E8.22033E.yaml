@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MONDEO_TIP_ABS: 0
   response: 7E80562033E0000
+- expected_values:
+    MONDEO_TIP_ABS: 22.94175
+  response: 7E80562033E50FF
