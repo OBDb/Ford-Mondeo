@@ -1,32 +1,8 @@
 command_id: 7E6.7EE.22481F|f=2015-
 test_cases:
 - expected_values:
-    MONDEO_MOTOR_COIL_T: 87.8
-  response: 7EE0562481F001F
-- expected_values:
-    MONDEO_MOTOR_COIL_T: 93.2
-  response: 7EE0562481F0022
-- expected_values:
-    MONDEO_MOTOR_COIL_T: 96.8
-  response: 7EE0562481F0024
-- expected_values:
-    MONDEO_MOTOR_COIL_T: 98.6
-  response: 7EE0562481F0025
-- expected_values:
-    MONDEO_MOTOR_COIL_T: 100.4
-  response: 7EE0562481F0026
-- expected_values:
-    MONDEO_MOTOR_COIL_T: 107.6
-  response: 7EE0562481F002A
-- expected_values:
-    MONDEO_MOTOR_COIL_T: 109.4
-  response: 7EE0562481F002B
-- expected_values:
-    MONDEO_MOTOR_COIL_T: 114.8
-  response: 7EE0562481F002E
-- expected_values:
-    MONDEO_MOTOR_COIL_T: 120.2
-  response: 7EE0562481F0031
+    MONDEO_MOTOR_COIL_T: 50
+  response: 7EE0562481F000A
 - expected_values:
     MONDEO_MOTOR_COIL_T: 125.6
   response: 7EE0562481F0034

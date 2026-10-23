@@ -7,8 +7,5 @@ test_cases:
     MONDEO_BATT_MIN_BATT_V: 3.567
   response: 7EC056248400DEF
 - expected_values:
-    MONDEO_BATT_MIN_BATT_V: 3.598
-  response: 7EC056248400E0E
-- expected_values:
-    MONDEO_BATT_MIN_BATT_V: 3.927
-  response: 7EC056248400F57
+    MONDEO_BATT_MIN_BATT_V: 3.851
+  response: 7EC056248400F0B

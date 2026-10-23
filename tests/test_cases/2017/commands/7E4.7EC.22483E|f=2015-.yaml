@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MONDEO_BATT_SOC: 0.731
   response: 7EC0562483E02DB
+- expected_values:
+    MONDEO_BATT_SOC: 0.902
+  response: 7EC0562483E0386
