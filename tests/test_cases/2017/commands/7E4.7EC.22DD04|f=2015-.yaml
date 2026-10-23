@@ -1,6 +1,12 @@
 command_id: 7E4.7EC.22DD04|f=2015-
 test_cases:
 - expected_values:
+    MONDEO_T_INSIDE_CAR: 46.4
+  response: 7EC0462DD0430
+- expected_values:
+    MONDEO_T_INSIDE_CAR: 59
+  response: 7EC0462DD0437
+- expected_values:
     MONDEO_T_INSIDE_CAR: 68
   response: 7EC0462DD043C
 - expected_values:

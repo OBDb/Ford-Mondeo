@@ -1,6 +1,12 @@
 command_id: 7E6.7EE.22DD05|f=2015-
 test_cases:
 - expected_values:
+    MONDEO_OUTSIDE_T: 41.2
+  response: 7EE0462DD052C
+- expected_values:
+    MONDEO_OUTSIDE_T: 43
+  response: 7EE0462DD052D
+- expected_values:
     MONDEO_OUTSIDE_T: 48.4
   response: 7EE0462DD0530
 - expected_values:

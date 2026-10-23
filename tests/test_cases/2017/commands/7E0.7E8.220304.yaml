@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MONDEO_CMD_GEN_V: 14.884
   response: '7E8056203047724'
+- expected_values:
+    MONDEO_CMD_GEN_V: 14.99136
+  response: '7E8056203047800'

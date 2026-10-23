@@ -1,11 +1,11 @@
 command_id: 7E4.7EC.224801|fc=1,f=2015-
 test_cases:
 - expected_values:
-    MONDEO_HVBAT_SOC: 48.894
-  response: 7EC056248015F7F
-- expected_values:
-    MONDEO_HVBAT_SOC: 54.828
-  response: 7EC056248016B16
+    MONDEO_HVBAT_SOC: 47.64
+  response: 7EC056248015D0C
 - expected_values:
     MONDEO_HVBAT_SOC: 58.826
   response: 7EC0562480172E5
+- expected_values:
+    MONDEO_HVBAT_SOC: 68.722
+  response: 7EC056248018639

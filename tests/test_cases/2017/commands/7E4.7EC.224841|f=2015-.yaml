@@ -4,8 +4,5 @@ test_cases:
     MONDEO_AVG_BAT_MODULE_V: 3.574
   response: 7EC056248410DF6
 - expected_values:
-    MONDEO_AVG_BAT_MODULE_V: 3.608
-  response: 7EC056248410E18
-- expected_values:
-    MONDEO_AVG_BAT_MODULE_V: 3.935
-  response: 7EC056248410F5F
+    MONDEO_AVG_BAT_MODULE_V: 3.86
+  response: 7EC056248410F14

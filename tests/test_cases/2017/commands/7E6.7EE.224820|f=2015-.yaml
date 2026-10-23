@@ -1,8 +1,8 @@
 command_id: 7E6.7EE.224820|f=2015-
 test_cases:
 - expected_values:
-    MONDEO_GEN_COIL_T_7E6: 54
-  response: 7EE05624820001E
+    MONDEO_GEN_COIL_T_7E6: 34.2
+  response: 7EE056248200013
 - expected_values:
     MONDEO_GEN_COIL_T_7E6: 90
   response: 7EE056248200032

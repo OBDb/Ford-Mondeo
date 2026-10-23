@@ -7,6 +7,9 @@ test_cases:
     MONDEO_FAN_SPD_DEMANDED: 1000
   response: 7EC0462070128
 - expected_values:
+    MONDEO_FAN_SPD_DEMANDED: 1075
+  response: 7EC046207012B
+- expected_values:
     MONDEO_FAN_SPD_DEMANDED: 1200
   response: 7EC0462070130
 - expected_values:
