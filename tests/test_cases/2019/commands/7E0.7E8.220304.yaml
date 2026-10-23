@@ -4,8 +4,8 @@ test_cases:
     MONDEO_CMD_GEN_V: 10.5935
   response: 7E80562030454CC
 - expected_values:
-    MONDEO_CMD_GEN_V: 14.3716
-  response: 7E805620304730A
+    MONDEO_CMD_GEN_V: 12.37275
+  response: 7E805620304630A
 - expected_values:
     MONDEO_CMD_GEN_V: 14.49116
   response: 7E80562030473FF
