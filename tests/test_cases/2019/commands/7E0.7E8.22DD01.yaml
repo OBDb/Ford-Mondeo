@@ -10,5 +10,5 @@ test_cases:
     MONDEO_ODO_7E0: 141056
   response: 7E80662DD01022700
 - expected_values:
-    MONDEO_ODO_7E0: 169472
-  response: 7E80662DD01029600
+    MONDEO_ODO_7E0: 169738
+  response: 7E80662DD0102970A
