@@ -1,0 +1,22 @@
+command_id: 7E0.019B
+test_cases:
+- expected_values:
+    DEF_CON: 32.75
+    DEF_CON_SUP: 1
+    DEF_LVL: 68.62745
+    DEF_LVL_SUP: 1
+    DEF_T: 8
+    DEF_TYPE: Proper mixture
+    DEF_TYPE_SUP: 1
+    DEF_T_SUP: 1
+  response: 7E806419B3F8330AF
+- expected_values:
+    DEF_CON: 32.75
+    DEF_CON_SUP: 1
+    DEF_LVL: 69.01961
+    DEF_LVL_SUP: 1
+    DEF_T: 8
+    DEF_TYPE: Proper mixture
+    DEF_TYPE_SUP: 1
+    DEF_T_SUP: 1
+  response: 7E806419B3F8330B0

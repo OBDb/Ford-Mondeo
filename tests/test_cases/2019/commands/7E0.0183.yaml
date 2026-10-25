@@ -1,0 +1,50 @@
+command_id: 7E0.0183
+test_cases:
+- expected_values:
+    NOX11: 3
+    NOX11_NA: 0
+    NOX11_SUP: 1
+    NOX12: 0
+    NOX12_NA: 0
+    NOX12_SUP: 1
+    NOX21: 3
+    NOX21_NA: 0
+    NOX21_SUP: 0
+    NOX22: 3
+    NOX22_NA: 0
+    NOX22_SUP: 0
+  response: |-
+    7E8100B418303000300
+    7E82100000300030000
+- expected_values:
+    NOX11: 56
+    NOX11_NA: 0
+    NOX11_SUP: 1
+    NOX12: 0
+    NOX12_NA: 0
+    NOX12_SUP: 1
+    NOX21: 56
+    NOX21_NA: 0
+    NOX21_SUP: 0
+    NOX22: 56
+    NOX22_NA: 0
+    NOX22_SUP: 0
+  response: |-
+    7E8100B418303003800
+    7E82100003800380000
+- expected_values:
+    NOX11: 87
+    NOX11_NA: 0
+    NOX11_SUP: 1
+    NOX12: 14
+    NOX12_NA: 0
+    NOX12_SUP: 1
+    NOX21: 87
+    NOX21_NA: 0
+    NOX21_SUP: 0
+    NOX22: 87
+    NOX22_NA: 0
+    NOX22_SUP: 0
+  response: |-
+    7E8100B418303005700
+    7E8210E005700570000
