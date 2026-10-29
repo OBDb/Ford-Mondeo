@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2204F7
+test_cases:
+- expected_values:
+    MONDEO_GEN_CURRENT: 0.26554
+  response: 7E8056204F70011
+- expected_values:
+    MONDEO_GEN_CURRENT: 0.5467
+  response: 7E8056204F70023

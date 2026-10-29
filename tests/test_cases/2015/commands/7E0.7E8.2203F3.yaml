@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2203F3
+test_cases:
+- expected_values:
+    MONDEO_SUMP_OIL_T_MEAS: 15
+  response: 7E8046203F337

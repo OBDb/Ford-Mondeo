@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22053F
+test_cases:
+- expected_values:
+    MONDEO_TIME_SINCE_OIL: 186.99931
+  response: 7E80562053F2FDF
+- expected_values:
+    MONDEO_TIME_SINCE_OIL: 188.99825
+  response: 7E80562053F3062
