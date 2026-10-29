@@ -48,7 +48,7 @@
   "signals": [
     {"id": "MONDEO_NORM_CUM_DCHG_BAT_ON", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "scalar" }, "name": "Normalized cumulative discharge from battery with engine on"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4025"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018], "from": 2020 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4025"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_BAT_QUIESCENT", "path": "Battery", "fmt": { "len": 16, "max": 31767.5, "min": -1000, "div": 2, "add": -1000, "unit": "milliamps" }, "name": "Battery quiescent current, low range"}
   ]},
@@ -354,7 +354,7 @@
   "signals": [
     {"id": "MONDEO_IGN_CORR_CYL1", "path": "Engine", "fmt": { "len": 16, "max": 63.9, "min": -64, "div": 512, "sign": true, "unit": "degrees" }, "name": "Ignition correction, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03F3"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03F3"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_SUMP_OIL_T_MEAS", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Sump oil temperature measured"}
   ]},
@@ -406,7 +406,7 @@
   "signals": [
     {"id": "MONDEO_INJ_MODE", "path": "Engine", "fmt": { "len": 8, "max": 7, "unit": "scalar" }, "name": "Injection mode"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "04F7"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "04F7"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "MONDEO_GEN_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 511.8205, "min": -511.8361, "mul": 781, "div": 50000, "sign": true, "unit": "amps" }, "name": "Generator current"}
   ]},
@@ -422,7 +422,7 @@
   "signals": [
     {"id": "MONDEO_FUEL_T", "path": "Fuel", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "053F"}, "freq": 30, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "053F"}, "freq": 30, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_TIME_SINCE_OIL", "path": "Engine", "fmt": { "len": 16, "max": 1000, "mul": 200, "div": 13107, "unit": "unknown" }, "name": "Time since last oil change"}
   ]},
@@ -474,7 +474,7 @@
   "signals": [
     {"id": "MONDEO_PCM_CYL_6_KNK_COMB_PERF_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock counter, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05BE"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05BE"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_TURBO_INLET_P", "path": "Engine", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Turbo inlet pressure"}
   ]},
@@ -494,7 +494,7 @@
   "signals": [
     {"id": "MONDEO_GRILL_SHUT_DC", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Grill shutter duty cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "070D"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "070D"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_TRANSFER_CASE_FLUID_T", "path": "Engine", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transfer case fluid temperature"}
   ]},
@@ -737,7 +737,7 @@
   "signals": [
     {"id": "MONDEO_4_WHL_DRIVE_ENGAGED", "path": "Tires", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "scalar" }, "name": "4 wheel drive engaged"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "D137"}, "freq": 3600, "dbgfilter": { "to": 2016, "years": [2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "D137"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_DTC_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "DTC counter"}
   ]},
