@@ -33,6 +33,22 @@ test_cases:
     7E8100B418303003800
     7E82100003800380000
 - expected_values:
+    NOX11: 81
+    NOX11_NA: 0
+    NOX11_SUP: 1
+    NOX12: 7
+    NOX12_NA: 0
+    NOX12_SUP: 1
+    NOX21: 81
+    NOX21_NA: 0
+    NOX21_SUP: 0
+    NOX22: 81
+    NOX22_NA: 0
+    NOX22_SUP: 0
+  response: |-
+    7E8100B418303005100
+    7E82107005100510000
+- expected_values:
     NOX11: 87
     NOX11_NA: 0
     NOX11_SUP: 1
@@ -48,3 +64,19 @@ test_cases:
   response: |-
     7E8100B418303005700
     7E8210E005700570000
+- expected_values:
+    NOX11: 139
+    NOX11_NA: 0
+    NOX11_SUP: 1
+    NOX12: 0
+    NOX12_NA: 0
+    NOX12_SUP: 1
+    NOX21: 139
+    NOX21_NA: 0
+    NOX21_SUP: 0
+    NOX22: 139
+    NOX22_NA: 0
+    NOX22_SUP: 0
+  response: |-
+    7E8100B418303008B00
+    7E82100008B008B0000

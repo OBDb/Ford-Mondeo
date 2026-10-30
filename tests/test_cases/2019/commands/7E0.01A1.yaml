@@ -29,6 +29,20 @@ test_cases:
     7E8100B41A103003A00
     7E82100FFFFFFFF0000
 - expected_values:
+    NOXC11: 80
+    NOXC11_NA: 0
+    NOXC11_SUP: 1
+    NOXC12: 6
+    NOXC12_NA: 0
+    NOXC12_SUP: 1
+    NOXC21_NA: 0
+    NOXC21_SUP: 0
+    NOXC22_NA: 0
+    NOXC22_SUP: 0
+  response: |-
+    7E8100B41A103005000
+    7E82106FFFFFFFF0000
+- expected_values:
     NOXC11: 91
     NOXC11_NA: 0
     NOXC11_SUP: 1
@@ -42,3 +56,17 @@ test_cases:
   response: |-
     7E8100B41A103005B00
     7E8210EFFFFFFFF0000
+- expected_values:
+    NOXC11: 178
+    NOXC11_NA: 0
+    NOXC11_SUP: 1
+    NOXC12: 0
+    NOXC12_NA: 0
+    NOXC12_SUP: 1
+    NOXC21_NA: 0
+    NOXC21_SUP: 0
+    NOXC22_NA: 0
+    NOXC22_SUP: 0
+  response: |-
+    7E8100B41A10300B200
+    7E82100FFFFFFFF0000
