@@ -20,3 +20,13 @@ test_cases:
     DEF_TYPE_SUP: 1
     DEF_T_SUP: 1
   response: 7E806419B3F8330B0
+- expected_values:
+    DEF_CON: 32.75
+    DEF_CON_SUP: 1
+    DEF_LVL: 63.52941
+    DEF_LVL_SUP: 1
+    DEF_T: 11
+    DEF_TYPE: Proper mixture
+    DEF_TYPE_SUP: 1
+    DEF_T_SUP: 1
+  response: 7E806419B3F8333A2
