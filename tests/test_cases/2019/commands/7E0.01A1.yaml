@@ -70,3 +70,17 @@ test_cases:
   response: |-
     7E8100B41A10300B200
     7E82100FFFFFFFF0000
+- expected_values:
+    NOXC11: 418
+    NOXC11_NA: 0
+    NOXC11_SUP: 1
+    NOXC12: 0
+    NOXC12_NA: 0
+    NOXC12_SUP: 1
+    NOXC21_NA: 0
+    NOXC21_SUP: 0
+    NOXC22_NA: 0
+    NOXC22_SUP: 0
+  response: |-
+    7E8100B41A10301A200
+    7E82100FFFFFFFF0000

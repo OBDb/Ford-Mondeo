@@ -80,3 +80,19 @@ test_cases:
   response: |-
     7E8100B418303008B00
     7E82100008B008B0000
+- expected_values:
+    NOX11: 418
+    NOX11_NA: 0
+    NOX11_SUP: 1
+    NOX12: 0
+    NOX12_NA: 0
+    NOX12_SUP: 1
+    NOX21: 418
+    NOX21_NA: 0
+    NOX21_SUP: 0
+    NOX22: 418
+    NOX22_NA: 0
+    NOX22_SUP: 0
+  response: |-
+    7E8100B41830301A200
+    7E8210001A201A20000
