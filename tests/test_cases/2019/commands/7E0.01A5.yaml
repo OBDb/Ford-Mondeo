@@ -30,3 +30,9 @@ test_cases:
     DEF_UCDC: 0.0375
     DEF_UCDC_SUP: 1
   response: 7E80641A50307004B
+- expected_values:
+    DEF_CMD: 3.5
+    DEF_CMD_SUP: 1
+    DEF_UCDC: 0.0535
+    DEF_UCDC_SUP: 1
+  response: 7E80641A50307006B
