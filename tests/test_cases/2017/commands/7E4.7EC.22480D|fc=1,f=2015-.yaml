@@ -10,5 +10,5 @@ test_cases:
     MONDEO_HVBAT_V: 279.21
   response: 7EC0562480D6D11
 - expected_values:
-    MONDEO_HVBAT_V: 292.53
-  response: 7EC0562480D7245
+    MONDEO_HVBAT_V: 295.23
+  response: 7EC0562480D7353
