@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MONDEO_TIME_SINCE_OIL: 188.99825
   response: 7E80562053F3062
+- expected_values:
+    MONDEO_TIME_SINCE_OIL: 193.98795
+  response: 7E80562053F31A9
