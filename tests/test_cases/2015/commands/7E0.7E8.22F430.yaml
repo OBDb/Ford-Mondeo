@@ -4,5 +4,5 @@ test_cases:
     MONDEO_WARMUP_CLR: 0
   response: 7E80462F43000
 - expected_values:
-    MONDEO_WARMUP_CLR: 199
-  response: 7E80462F430C7
+    MONDEO_WARMUP_CLR: 255
+  response: 7E80462F430FF

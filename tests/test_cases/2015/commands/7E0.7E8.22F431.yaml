@@ -7,5 +7,5 @@ test_cases:
     MONDEO_DIST_DTC_CLR: 4863
   response: 7E80562F43112FF
 - expected_values:
-    MONDEO_DIST_DTC_CLR: 8192
-  response: 7E80562F4312000
+    MONDEO_DIST_DTC_CLR: 11063
+  response: 7E80562F4312B37
