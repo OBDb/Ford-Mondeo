@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MONDEO_BAT_QUIESCENT: 16
   response: 72E0562402507F0
+- expected_values:
+    MONDEO_BAT_QUIESCENT: 19
+  response: 72E0562402507F6
