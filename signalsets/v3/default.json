@@ -845,7 +845,7 @@
   "signals": [
     {"id": "MONDEO_GEN_COIL_T", "path": "Engine", "fmt": { "len": 16, "max": 11796620, "mul": 180, "add": 320, "unit": "fahrenheit" }, "name": "Generator coil temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_TRANS_ODO", "path": "Transmission", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Transmission odometer", "suggestedMetric": "odometer"}
   ]},
