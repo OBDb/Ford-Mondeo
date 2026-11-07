@@ -4,6 +4,9 @@ test_cases:
     MONDEO_TP_RL: 25.2
   response: 72E0562281601F8
 - expected_values:
+    MONDEO_TP_RL: 25.6
+  response: '72E056228160200'
+- expected_values:
     MONDEO_TP_RL: 38.35
   response: 72E0562281602FF
 - expected_values:
