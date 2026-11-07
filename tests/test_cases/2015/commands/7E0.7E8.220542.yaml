@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MONDEO_DIST_SINCE_OIL: 8132
   response: 7E8056205421FC4
+- expected_values:
+    MONDEO_DIST_SINCE_OIL: 11161
+  response: 7E8056205422B99
