@@ -15,6 +15,20 @@ test_cases:
     7E8100B41A103000600
     7E82100FFFFFFFF0000
 - expected_values:
+    NOXC11: 15
+    NOXC11_NA: 0
+    NOXC11_SUP: 1
+    NOXC12: 28
+    NOXC12_NA: 0
+    NOXC12_SUP: 1
+    NOXC21_NA: 0
+    NOXC21_SUP: 0
+    NOXC22_NA: 0
+    NOXC22_SUP: 0
+  response: |-
+    7E8100B41A103000F00
+    7E8211CFFFFFFFF0000
+- expected_values:
     NOXC11: 58
     NOXC11_NA: 0
     NOXC11_SUP: 1
@@ -70,6 +84,34 @@ test_cases:
   response: |-
     7E8100B41A10300B200
     7E82100FFFFFFFF0000
+- expected_values:
+    NOXC11: 180
+    NOXC11_NA: 0
+    NOXC11_SUP: 1
+    NOXC12: 36
+    NOXC12_NA: 0
+    NOXC12_SUP: 1
+    NOXC21_NA: 0
+    NOXC21_SUP: 0
+    NOXC22_NA: 0
+    NOXC22_SUP: 0
+  response: |-
+    7E8100B41A10300B400
+    7E82124FFFFFFFF0000
+- expected_values:
+    NOXC11: 284
+    NOXC11_NA: 0
+    NOXC11_SUP: 1
+    NOXC12: 291
+    NOXC12_NA: 0
+    NOXC12_SUP: 1
+    NOXC21_NA: 0
+    NOXC21_SUP: 0
+    NOXC22_NA: 0
+    NOXC22_SUP: 0
+  response: |-
+    7E8100B41A103011C01
+    7E82123FFFFFFFF0000
 - expected_values:
     NOXC11: 418
     NOXC11_NA: 0

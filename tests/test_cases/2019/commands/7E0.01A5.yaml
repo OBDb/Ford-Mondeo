@@ -21,9 +21,27 @@ test_cases:
 - expected_values:
     DEF_CMD: 1.5
     DEF_CMD_SUP: 1
+    DEF_UCDC: 0.0295
+    DEF_UCDC_SUP: 1
+  response: 7E80641A50303003B
+- expected_values:
+    DEF_CMD: 1.5
+    DEF_CMD_SUP: 1
+    DEF_UCDC: 0.0315
+    DEF_UCDC_SUP: 1
+  response: 7E80641A50303003F
+- expected_values:
+    DEF_CMD: 1.5
+    DEF_CMD_SUP: 1
     DEF_UCDC: 0.0385
     DEF_UCDC_SUP: 1
   response: 7E80641A50303004D
+- expected_values:
+    DEF_CMD: 3.5
+    DEF_CMD_SUP: 1
+    DEF_UCDC: 0.0305
+    DEF_UCDC_SUP: 1
+  response: 7E80641A50307003D
 - expected_values:
     DEF_CMD: 3.5
     DEF_CMD_SUP: 1
