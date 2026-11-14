@@ -60,3 +60,13 @@ test_cases:
     DEF_TYPE_SUP: 1
     DEF_T_SUP: 1
   response: 7E806419B3F8333A2
+- expected_values:
+    DEF_CON: 33.25
+    DEF_CON_SUP: 1
+    DEF_LVL: 40.78431
+    DEF_LVL_SUP: 1
+    DEF_T: 0
+    DEF_TYPE: Unknown
+    DEF_TYPE_SUP: 1
+    DEF_T_SUP: 1
+  response: 7E806419BDF852868

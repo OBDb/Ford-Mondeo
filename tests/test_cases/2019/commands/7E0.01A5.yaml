@@ -3,6 +3,12 @@ test_cases:
 - expected_values:
     DEF_CMD: 0
     DEF_CMD_SUP: 1
+    DEF_UCDC: 0.0005
+    DEF_UCDC_SUP: 1
+  response: 7E80641A503000001
+- expected_values:
+    DEF_CMD: 0
+    DEF_CMD_SUP: 1
     DEF_UCDC: 0.0065
     DEF_UCDC_SUP: 1
   response: 7E80641A50300000D
