@@ -144,3 +144,19 @@ test_cases:
   response: |-
     7E8100B41830301A200
     7E8210001A201A20000
+- expected_values:
+    NOX11: 1996
+    NOX11_NA: 0
+    NOX11_SUP: 1
+    NOX12: 1996
+    NOX12_NA: 0
+    NOX12_SUP: 1
+    NOX21: 1996
+    NOX21_NA: 0
+    NOX21_SUP: 0
+    NOX22: 1996
+    NOX22_NA: 0
+    NOX22_SUP: 0
+  response: |-
+    7E8100B41830307CC07
+    7E821CC07CC07CC0000
