@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220604
+test_cases:
+- expected_values:
+    MONDEO_PCM_A_C_REFRIG_P: 412
+  response: 7E805620604019C
+- expected_values:
+    MONDEO_PCM_A_C_REFRIG_P: 441
+  response: 7E80562060401B9
+- expected_values:
+    MONDEO_PCM_A_C_REFRIG_P: 445
+  response: 7E80562060401BD

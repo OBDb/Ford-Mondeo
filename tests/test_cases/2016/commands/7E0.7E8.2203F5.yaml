@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2203F5
+test_cases:
+- expected_values:
+    MONDEO_EXH_GAS_T_2: 195
+  response: 7E8046203F527
+- expected_values:
+    MONDEO_EXH_GAS_T_2: 215
+  response: 7E8046203F52B
+- expected_values:
+    MONDEO_EXH_GAS_T_2: 240
+  response: 7E8046203F530
+- expected_values:
+    MONDEO_EXH_GAS_T_2: 265
+  response: 7E8046203F535

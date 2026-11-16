@@ -190,15 +190,15 @@
   "signals": [
     {"id": "MONDEO_ABS_LATERAL_ACCEL", "path": "Control", "fmt": { "len": 16, "max": 1310.7, "div": 50, "unit": "gravity" }, "name": "Anti-lock brake lateral acceleration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0301"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0301"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2020 },
   "signals": [
     {"id": "MONDEO_MAP_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 1024, "unit": "volts" }, "name": "Manifold pressure sensor voltage", "description": "Typically varies from 1 volt at idle to 5 volts during wide open throttle."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0304"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0304"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_CMD_GEN_V", "path": "Battery", "fmt": { "len": 16, "max": 16, "mul": 0.000488, "unit": "volts" }, "name": "Commanded generator voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0307"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0307"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "MONDEO_LPFP_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 25, "div": 8192, "unit": "percent" }, "name": "Fuel pump duty cycle, low pressure"}
   ]},
@@ -230,11 +230,11 @@
   "signals": [
     {"id": "MONDEO_VCT_EXH_ERR", "path": "Engine", "fmt": { "len": 16, "max": 50, "div": 16, "unit": "degrees" }, "name": "Camshaft position error, exhaust"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0324"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016, 2017, 2018, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0324"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2017, 2018, 2020], "from": 2022 },
   "signals": [
     {"id": "MONDEO_HPFP_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Fuel rail sensor voltage, high pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "032B"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "032B"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2020 },
   "signals": [
     {"id": "MONDEO_ACC_POS", "path": "Engine", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Accelerator position"}
   ]},
@@ -246,11 +246,11 @@
   "signals": [
     {"id": "MONDEO_ETC_TRIM_LRN", "path": "Engine", "fmt": { "len": 16, "max": 63.9, "min": -64, "div": 512, "sign": true, "unit": "degrees" }, "name": "Throttle control trim angle, learned"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "033C"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016, 2017, 2018, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "033C"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2017, 2018, 2020], "from": 2022 },
   "signals": [
     {"id": "MONDEO_TIP_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 1024, "unit": "volts" }, "name": "Throttle inlet pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "033E"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "033E"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_TIP_ABS", "path": "Engine", "fmt": { "len": 16, "max": 60, "mul": 37, "div": 33441, "unit": "psi" }, "name": "Throttle inlet pressure"}
   ]},
@@ -270,11 +270,11 @@
   "signals": [
     {"id": "MONDEO_RO2_V", "path": "Engine", "fmt": { "len": 16, "max": 1, "div": 1024, "unit": "volts" }, "name": "O2 sensor voltage, rear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0370"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0370"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_MAP_HIRES", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "kilopascal" }, "name": "Manifold absolute pressure, high resolution"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0378"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0378"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "MONDEO_GEN_CTRL", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.003052, "unit": "percent" }, "name": "Generator control"}
   ]},
@@ -302,7 +302,7 @@
   "signals": [
     {"id": "MONDEO_EVAP_RAW", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Evaporative pressure sensor, raw count"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038F"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038F"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2020], "from": 2022 },
   "signals": [
     {"id": "MONDEO_ECT", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Coolant temperature"}
   ]},
@@ -318,11 +318,11 @@
   "signals": [
     {"id": "MONDEO_TRQ_CTRL_REQ", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Torque request"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03B9"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03B9"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_FAN_SPD_DES", "path": "Movement", "fmt": { "len": 16, "max": 100, "mul": 40, "div": 13107, "unit": "percent" }, "name": "Fan speed, desired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03BA"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03BA"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2020 },
   "signals": [
     {"id": "MONDEO_AAT_V", "path": "Climate", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Ambient temperature sensor voltage"}
   ]},
@@ -342,7 +342,7 @@
   "signals": [
     {"id": "MONDEO_MCT", "path": "Engine", "fmt": { "len": 8, "max": 148.889, "unit": "celsius" }, "name": "Manifold temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03DC"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016, 2017, 2018, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03DC"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2017, 2018, 2020], "from": 2022 },
   "signals": [
     {"id": "MONDEO_HPFP_DES", "path": "Engine", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "Fuel rail pressure, desired"}
   ]},
@@ -354,15 +354,15 @@
   "signals": [
     {"id": "MONDEO_IGN_CORR_CYL1", "path": "Engine", "fmt": { "len": 16, "max": 63.9, "min": -64, "div": 512, "sign": true, "unit": "degrees" }, "name": "Ignition correction, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03F3"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03F3"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_SUMP_OIL_T_MEAS", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Sump oil temperature measured"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03F4"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03F4"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_EXH_GAS_T_1", "path": "Engine", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "celsius" }, "name": "Exhaust gas temperature 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03F5"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03F5"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_EXH_GAS_T_2", "path": "Engine", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "celsius" }, "name": "Exhaust gas temperature 2"}
   ]},
@@ -374,11 +374,11 @@
   "signals": [
     {"id": "MONDEO_KS2_RAW", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Knock sensor, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0415"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0415"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_PCM_ENG_EOP_RAW", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilopascal" }, "name": "Oil pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "041F"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "041F"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_LPFP_DES", "path": "Engine", "fmt": { "len": 8, "max": 110, "mul": 435, "div": 1000, "unit": "psi" }, "name": "Fuel pressure, low desired"}
   ]},
@@ -394,11 +394,11 @@
   "signals": [
     {"id": "MONDEO_CAT", "path": "Engine", "fmt": { "len": 16, "max": 189, "min": -40, "div": 64, "add": -40, "sign": true, "unit": "celsius" }, "name": "Charge air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0462"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0462"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_WGDC", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 32768, "unit": "percent" }, "name": "Wastegate duty cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0466"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0466"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_TIP_DES_ABS", "path": "Engine", "fmt": { "len": 16, "max": 72.5, "mul": 37, "div": 33441, "unit": "psi" }, "name": "Throttle inlet pressure, desired"}
   ]},
@@ -406,11 +406,11 @@
   "signals": [
     {"id": "MONDEO_INJ_MODE", "path": "Engine", "fmt": { "len": 8, "max": 7, "unit": "scalar" }, "name": "Injection mode"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "04F7"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "04F7"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "MONDEO_GEN_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 511.8205, "min": -511.8361, "mul": 781, "div": 50000, "sign": true, "unit": "amps" }, "name": "Generator current"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "051C"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "051C"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_CHG_AIR_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Charge air temperature"}
   ]},
@@ -418,27 +418,27 @@
   "signals": [
     {"id": "MONDEO_CYL_HEAD_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Cylinder head temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0522"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0522"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_FUEL_T", "path": "Fuel", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "053F"}, "freq": 30, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "053F"}, "freq": 30, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_TIME_SINCE_OIL", "path": "Engine", "fmt": { "len": 16, "max": 1000, "mul": 200, "div": 13107, "unit": "unknown" }, "name": "Time since last oil change"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0542"}, "freq": 30, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0542"}, "freq": 30, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_DIST_SINCE_OIL", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since last oil change"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0548"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0548"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_LPFP_ACT", "path": "Engine", "fmt": { "len": 16, "max": 200, "mul": 10000, "div": 137892, "sign": true, "unit": "psi" }, "name": "Fuel pressure, low actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "054B"}, "freq": 30, "dbgfilter": { "to": 2014, "years": [2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "054B"}, "freq": 30, "dbgfilter": { "to": 2014, "from": 2020 },
   "signals": [
     {"id": "MONDEO_PCM_ENG_OIL_LIFE_REM", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Oil life remaining"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "054D"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "054D"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_LPFP_SENS_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "Fuel pressure sensor voltage, low"}
   ]},
@@ -446,7 +446,7 @@
   "signals": [
     {"id": "MONDEO_AAT_ALT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient temperature, alternate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0580"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0580"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2020 },
   "signals": [
     {"id": "MONDEO_GRILL_SHUTTER_POS", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Grill shutter position"}
   ]},
@@ -474,7 +474,7 @@
   "signals": [
     {"id": "MONDEO_PCM_CYL_6_KNK_COMB_PERF_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock counter, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05BE"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "05BE"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_TURBO_INLET_P", "path": "Engine", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Turbo inlet pressure"}
   ]},
@@ -482,15 +482,15 @@
   "signals": [
     {"id": "MONDEO_PCM_CYL_HEAD_T_SENS_2_RAW", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Cylinder head temperature, sensor 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0604"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0604"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_PCM_A_C_REFRIG_P", "path": "Climate", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilopascal" }, "name": "A/C refrigerant pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0700"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0700"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2020 },
   "signals": [
     {"id": "MONDEO_IAT_FAULT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Intake temperature fault"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0707"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0707"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2020 },
   "signals": [
     {"id": "MONDEO_GRILL_SHUT_DC", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Grill shutter duty cycle"}
   ]},
@@ -510,7 +510,7 @@
   "signals": [
     {"id": "MONDEO_ETC_ANG_ACT", "path": "Engine", "fmt": { "len": 16, "max": 127.99, "div": 512, "unit": "degrees" }, "name": "Throttle angle, actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "099B"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "099B"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2019 },
   "signals": [
     {"id": "MONDEO_AC_STATE", "path": "Climate", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "A/C compressor, state"}
   ]},
@@ -582,7 +582,7 @@
   "signals": [
     {"id": "MONDEO_TQ_CONV_LINE_P", "path": "Transmission", "fmt": { "len": 8, "max": 8790.819, "mul": 172369, "div": 5000, "unit": "kilopascal" }, "name": "Torque converter line pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1279"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1279"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2020 },
   "signals": [
     {"id": "MONDEO_IAT_SENS_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Intake temperature sensor voltage"}
   ]},
@@ -594,7 +594,7 @@
   "signals": [
     {"id": "MONDEO_BOOST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "psi" }, "name": "Boost"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1505"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1505"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2020 },
   "signals": [
     {"id": "MONDEO_VSS_HD", "path": "Movement", "fmt": { "len": 16, "max": 200, "div": 128, "unit": "kilometersPerHour" }, "name": "Vehicle speed, high resolution"}
   ]},
@@ -670,11 +670,11 @@
   "signals": [
     {"id": "MONDEO_WASTEGATE_CTRL", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 763, "div": 50000, "unit": "percent" }, "name": "Wastegate control"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E8"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E8"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
   "signals": [
     {"id": "MONDEO_CMD_GEN_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.003052, "unit": "percent" }, "name": "Commanded generator duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 0.25, "dbgfilter": { "to": 2014, "from": 2020 },
   "signals": [
     {"id": "MONDEO_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "suggestedMetric": "gear", "fmt": {"len": 8, "map": {
           "1":  { "description": "First gear",   "value": "1" },
@@ -706,7 +706,7 @@
   "signals": [
     {"id": "MONDEO_TOT_7E0", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1F"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1F"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_GEAR_ENG", "path": "Transmission", "name": "Gear, engaged", "suggestedMetric": "gear", "fmt": {"len": 8, "map": {
           "1":  { "description": "First gear",   "value": "1" },
@@ -747,7 +747,7 @@
   "signals": [
     {"id": "MONDEO_DTE_DISP", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance to empty, displayed", "suggestedMetric": "fuelRange"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "9800"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "9800"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2020 },
   "signals": [
     {"id": "MONDEO_AC_P_SENS_V", "path": "Climate", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "A/C compressor pressure sensor voltage"}
   ]},
@@ -755,15 +755,15 @@
   "signals": [
     {"id": "MONDEO_4_WHL_DRIVE_ENGAGED", "path": "Tires", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "scalar" }, "name": "4 wheel drive engaged"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "D137"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "D137"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_DTC_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "DTC counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2020], "from": 2022 },
   "signals": [
     {"id": "MONDEO_ODO_7E0", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F404"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F404"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2020 },
   "signals": [
     {"id": "MONDEO_ENG_LOAD_PCT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load"}
   ]},
@@ -775,39 +775,39 @@
   "signals": [
     {"id": "MONDEO_LTFT", "path": "Engine", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Fuel trim, long term"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40B"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40B"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2020 },
   "signals": [
     {"id": "MONDEO_MAP", "path": "Engine", "fmt": { "len": 8, "max": 36, "mul": 10000, "div": 68947, "unit": "psi" }, "name": "Manifold pressure", "suggestedMetric": "absoluteBoostPressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2020 },
   "signals": [
     {"id": "MONDEO_RPM", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Engine speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2020 },
   "signals": [
     {"id": "MONDEO_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40F"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40F"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2020 },
   "signals": [
     {"id": "MONDEO_IAT_ALT2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake temperature, alternate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2020 },
   "signals": [
     {"id": "MONDEO_MIL_DIST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance with MIL"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42C"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42C"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2018 },
   "signals": [
     {"id": "MONDEO_EGR", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Exhaust gas recirculation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2020], "from": 2022 },
   "signals": [
     {"id": "MONDEO_FLI_7E0", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2020 },
   "signals": [
     {"id": "MONDEO_WARMUP_CLR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Warm-ups since DTC clear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2020 },
   "signals": [
     {"id": "MONDEO_DIST_DTC_CLR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since DTC clear"}
   ]},
@@ -815,23 +815,23 @@
   "signals": [
     {"id": "MONDEO_AIR_FUEL_RAT", "path": "Fuel", "fmt": { "len": 16, "max": 29.2801, "mul": 0.000446787, "unit": "scalar" }, "name": "Air/fuel ratio"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016], "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2019 },
   "signals": [
     {"id": "MONDEO_CAT_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2019 },
   "signals": [
     {"id": "MONDEO_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F45E"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F45E"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_ENG_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "liters" }, "name": "Engine fuel rate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F462"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F462"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_PCM_ACT_ENG_PCT_TRQ", "path": "Engine", "fmt": { "len": 8, "max": 100, "add": -125, "unit": "percent" }, "name": "Actual engine percent torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F463"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F463"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MONDEO_PCM_ENG_REFERENCE_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine reference torque"}
   ]},

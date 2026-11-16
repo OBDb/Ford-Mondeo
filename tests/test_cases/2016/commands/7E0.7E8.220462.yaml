@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220462
+test_cases:
+- expected_values:
+    MONDEO_WGDC: 99.57275
+  response: 7E8056204627F74
+- expected_values:
+    MONDEO_WGDC: 99.58496
+  response: 7E8056204627F78
+- expected_values:
+    MONDEO_WGDC: 100
+  response: '7E8056204628000'
