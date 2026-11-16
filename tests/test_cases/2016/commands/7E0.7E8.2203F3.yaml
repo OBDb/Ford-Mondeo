@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2203F3
+test_cases:
+- expected_values:
+    MONDEO_SUMP_OIL_T_MEAS: 44
+  response: 7E8046203F354
+- expected_values:
+    MONDEO_SUMP_OIL_T_MEAS: 45
+  response: 7E8046203F355
+- expected_values:
+    MONDEO_SUMP_OIL_T_MEAS: 46
+  response: 7E8046203F356
+- expected_values:
+    MONDEO_SUMP_OIL_T_MEAS: 47
+  response: 7E8046203F357
+- expected_values:
+    MONDEO_SUMP_OIL_T_MEAS: 48
+  response: 7E8046203F358

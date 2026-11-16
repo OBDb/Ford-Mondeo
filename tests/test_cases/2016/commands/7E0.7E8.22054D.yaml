@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22054D
+test_cases:
+- expected_values:
+    MONDEO_LPFP_SENS_V: 0.71387
+  response: 7E80562054D02DB
+- expected_values:
+    MONDEO_LPFP_SENS_V: 2.36719
+  response: 7E80562054D0978
+- expected_values:
+    MONDEO_LPFP_SENS_V: 2.36914
+  response: 7E80562054D097A

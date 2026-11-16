@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221279
+test_cases:
+- expected_values:
+    MONDEO_IAT_SENS_V: 3.14761
+  response: '7E8056212790284'
+- expected_values:
+    MONDEO_IAT_SENS_V: 3.15738
+  response: '7E8056212790286'
+- expected_values:
+    MONDEO_IAT_SENS_V: 3.19159
+  response: 7E805621279028D
+- expected_values:
+    MONDEO_IAT_SENS_V: 3.19648
+  response: 7E805621279028E
+- expected_values:
+    MONDEO_IAT_SENS_V: 3.20626
+  response: '7E8056212790290'
+- expected_values:
+    MONDEO_IAT_SENS_V: 3.21114
+  response: '7E8056212790291'
