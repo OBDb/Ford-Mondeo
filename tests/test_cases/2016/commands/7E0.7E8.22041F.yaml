@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MONDEO_LPFP_DES: 74.82
   response: 7E80462041FAC
+- expected_values:
+    MONDEO_LPFP_DES: 75.255
+  response: 7E80462041FAD

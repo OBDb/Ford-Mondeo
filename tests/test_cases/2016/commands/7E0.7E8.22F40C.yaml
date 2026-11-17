@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     MONDEO_RPM: 842
   response: 7E80562F40C0D28
+- expected_values:
+    MONDEO_RPM: 1164
+  response: 7E80562F40C1230

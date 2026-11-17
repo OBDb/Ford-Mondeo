@@ -4,5 +4,8 @@ test_cases:
     MONDEO_ENG_FUEL_RATE: 0
   response: 7E80562F45E0000
 - expected_values:
+    MONDEO_ENG_FUEL_RATE: 0.7
+  response: 7E80562F45E000E
+- expected_values:
     MONDEO_ENG_FUEL_RATE: 0.9
   response: 7E80562F45E0012

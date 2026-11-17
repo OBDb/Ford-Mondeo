@@ -9,3 +9,12 @@ test_cases:
 - expected_values:
     MONDEO_AC_P_SENS_V: 0.92285
   response: 7E80562980003B1
+- expected_values:
+    MONDEO_AC_P_SENS_V: 1.04004
+  response: '7E8056298000429'
+- expected_values:
+    MONDEO_AC_P_SENS_V: 1.06445
+  response: '7E8056298000442'
+- expected_values:
+    MONDEO_AC_P_SENS_V: 1.16699
+  response: 7E80562980004AB

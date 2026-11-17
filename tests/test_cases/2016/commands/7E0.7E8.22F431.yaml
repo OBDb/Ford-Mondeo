@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MONDEO_DIST_DTC_CLR: 23
   response: 7E80562F4310017
+- expected_values:
+    MONDEO_DIST_DTC_CLR: 27
+  response: 7E80562F431001B

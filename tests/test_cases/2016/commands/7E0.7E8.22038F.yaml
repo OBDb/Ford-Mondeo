@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     MONDEO_ECT: 47.35938
   response: 7E80562038F0BD7
+- expected_values:
+    MONDEO_ECT: 69.46875
+  response: 7E80562038F115E

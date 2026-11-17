@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     MONDEO_HPFP_DES: 28180
   response: 7E8056203DC0B02
+- expected_values:
+    MONDEO_HPFP_DES: 45080
+  response: 7E8056203DC119C

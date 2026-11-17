@@ -4,6 +4,9 @@ test_cases:
     MONDEO_GEN_CTRL: 0
   response: '7E8056203780000'
 - expected_values:
+    MONDEO_GEN_CTRL: 30.95949
+  response: 7E80562037827A0
+- expected_values:
     MONDEO_GEN_CTRL: 37.59148
   response: 7E805620378301D
 - expected_values:

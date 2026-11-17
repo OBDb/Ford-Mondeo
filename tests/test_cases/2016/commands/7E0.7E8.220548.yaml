@@ -4,8 +4,14 @@ test_cases:
     MONDEO_LPFP_ACT: 17.40493
   response: 7E80562054800F0
 - expected_values:
+    MONDEO_LPFP_ACT: 18.42021
+  response: 7E80562054800FE
+- expected_values:
     MONDEO_LPFP_ACT: 75.05874
   response: 7E805620548040B
 - expected_values:
     MONDEO_LPFP_ACT: 75.20378
   response: 7E805620548040D
+- expected_values:
+    MONDEO_LPFP_ACT: 75.42134
+  response: '7E8056205480410'

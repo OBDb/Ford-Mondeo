@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F40B
 test_cases:
 - expected_values:
+    MONDEO_MAP: 14.06878
+  response: 7E80462F40B61
+- expected_values:
     MONDEO_MAP: 14.35886
   response: 7E80462F40B63
 - expected_values:
