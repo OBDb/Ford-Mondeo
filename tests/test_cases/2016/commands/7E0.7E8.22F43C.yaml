@@ -9,3 +9,12 @@ test_cases:
 - expected_values:
     MONDEO_CAT_TEMP: 151.1
   response: 7E80562F43C0777
+- expected_values:
+    MONDEO_CAT_TEMP: 169.6
+  response: 7E80562F43C0830
+- expected_values:
+    MONDEO_CAT_TEMP: 192.5
+  response: 7E80562F43C0915
+- expected_values:
+    MONDEO_CAT_TEMP: 224.4
+  response: 7E80562F43C0A54

@@ -4,5 +4,5 @@ test_cases:
     MONDEO_12V_V: 9.3
   response: 72E0462402A42
 - expected_values:
-    MONDEO_12V_V: 14.9
-  response: 72E0462402AB2
+    MONDEO_12V_V: 15.1
+  response: 72E0462402AB6

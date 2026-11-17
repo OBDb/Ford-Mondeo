@@ -1,8 +1,17 @@
 command_id: 7E0.7E8.220324
 test_cases:
 - expected_values:
+    MONDEO_HPFP_V: 0.50831
+  response: '7E8056203240068'
+- expected_values:
+    MONDEO_HPFP_V: 0.5132
+  response: '7E8056203240069'
+- expected_values:
     MONDEO_HPFP_V: 0.53275
   response: 7E805620324006D
+- expected_values:
+    MONDEO_HPFP_V: 0.99707
+  response: 7E80562032400CC
 - expected_values:
     MONDEO_HPFP_V: 1.00196
   response: 7E80562032400CD

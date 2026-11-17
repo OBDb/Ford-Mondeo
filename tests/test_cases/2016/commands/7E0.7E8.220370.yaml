@@ -1,8 +1,14 @@
 command_id: 7E0.7E8.220370
 test_cases:
 - expected_values:
+    MONDEO_MAP_HIRES: 97
+  response: '7E8056203700184'
+- expected_values:
     MONDEO_MAP_HIRES: 99.5
   response: 7E805620370018E
+- expected_values:
+    MONDEO_MAP_HIRES: 100.75
+  response: '7E8056203700193'
 - expected_values:
     MONDEO_MAP_HIRES: 101.75
   response: '7E8056203700197'

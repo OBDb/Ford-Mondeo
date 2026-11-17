@@ -9,3 +9,12 @@ test_cases:
 - expected_values:
     MONDEO_PCM_A_C_REFRIG_P: 445
   response: 7E80562060401BD
+- expected_values:
+    MONDEO_PCM_A_C_REFRIG_P: 545
+  response: '7E8056206040221'
+- expected_values:
+    MONDEO_PCM_A_C_REFRIG_P: 553
+  response: '7E8056206040229'
+- expected_values:
+    MONDEO_PCM_A_C_REFRIG_P: 665
+  response: '7E8056206040299'

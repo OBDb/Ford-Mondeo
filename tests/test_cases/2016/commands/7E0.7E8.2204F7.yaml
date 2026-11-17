@@ -4,6 +4,9 @@ test_cases:
     MONDEO_GEN_CURRENT: 0.48422
   response: 7E8056204F7001F
 - expected_values:
+    MONDEO_GEN_CURRENT: 47.96902
+  response: 7E8056204F70BFF
+- expected_values:
     MONDEO_GEN_CURRENT: 64.38564
   response: 7E8056204F7101A
 - expected_values:

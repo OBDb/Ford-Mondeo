@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     MONDEO_CHG_AIR_T: 11
   response: 7E80462051C33
+- expected_values:
+    MONDEO_CHG_AIR_T: 17
+  response: 7E80462051C39
+- expected_values:
+    MONDEO_CHG_AIR_T: 19
+  response: 7E80462051C3B
+- expected_values:
+    MONDEO_CHG_AIR_T: 20
+  response: 7E80462051C3C

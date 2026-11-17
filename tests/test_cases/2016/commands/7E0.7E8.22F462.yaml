@@ -4,5 +4,8 @@ test_cases:
     MONDEO_PCM_ACT_ENG_PCT_TRQ: 0
   response: 7E80462F4627D
 - expected_values:
+    MONDEO_PCM_ACT_ENG_PCT_TRQ: 10
+  response: 7E80462F46287
+- expected_values:
     MONDEO_PCM_ACT_ENG_PCT_TRQ: 13
   response: 7E80462F4628A

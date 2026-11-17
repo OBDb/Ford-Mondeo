@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     MONDEO_GRILL_SHUT_DC: 36.86275
   response: 7E8046207075E
+- expected_values:
+    MONDEO_GRILL_SHUT_DC: 67.84314
+  response: 7E804620707AD
+- expected_values:
+    MONDEO_GRILL_SHUT_DC: 100
+  response: 7E804620707FF

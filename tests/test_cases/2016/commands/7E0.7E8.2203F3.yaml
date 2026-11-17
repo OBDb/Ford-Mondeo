@@ -15,3 +15,9 @@ test_cases:
 - expected_values:
     MONDEO_SUMP_OIL_T_MEAS: 48
   response: 7E8046203F358
+- expected_values:
+    MONDEO_SUMP_OIL_T_MEAS: 67
+  response: 7E8046203F36B
+- expected_values:
+    MONDEO_SUMP_OIL_T_MEAS: 68
+  response: 7E8046203F36C

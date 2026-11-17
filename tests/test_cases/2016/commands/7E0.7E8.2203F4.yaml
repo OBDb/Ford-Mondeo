@@ -9,3 +9,12 @@ test_cases:
 - expected_values:
     MONDEO_EXH_GAS_T_1: 150
   response: 7E8046203F41E
+- expected_values:
+    MONDEO_EXH_GAS_T_1: 170
+  response: 7E8046203F422
+- expected_values:
+    MONDEO_EXH_GAS_T_1: 200
+  response: 7E8046203F428
+- expected_values:
+    MONDEO_EXH_GAS_T_1: 225
+  response: 7E8046203F42D

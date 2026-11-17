@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.221279
 test_cases:
 - expected_values:
+    MONDEO_IAT_SENS_V: 2.73705
+  response: '7E8056212790230'
+- expected_values:
+    MONDEO_IAT_SENS_V: 2.7957
+  response: 7E805621279023C
+- expected_values:
     MONDEO_IAT_SENS_V: 3.14761
   response: '7E8056212790284'
 - expected_values:

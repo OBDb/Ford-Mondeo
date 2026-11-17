@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MONDEO_ODO_7E0: 147391
   response: 7E80662DD01023FBF
+- expected_values:
+    MONDEO_ODO_7E0: 147395
+  response: 7E80662DD01023FC3

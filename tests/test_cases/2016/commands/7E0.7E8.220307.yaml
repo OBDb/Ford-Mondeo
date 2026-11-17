@@ -7,6 +7,9 @@ test_cases:
     MONDEO_LPFP_DUTY: 34.29565
   response: 7E8056203072BE6
 - expected_values:
+    MONDEO_LPFP_DUTY: 35.45837
+  response: 7E8056203072D63
+- expected_values:
     MONDEO_LPFP_DUTY: 69.99512
   response: '7E8056203075998'
 - expected_values:
